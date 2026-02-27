@@ -1,0 +1,2118 @@
+==================================================
+--- KONFIGURATION & START ---
+Startzeitpunkt: 2025-10-10 22:47:03
+Eingabe-Verzeichnis: ../../../data/parquet/00-1-product-batches
+Ausgabe-Verzeichnis: ../../../data/parquet/02-product-batches-cleaned-holistic
+Preisgrenzen: [-9999, 9999]
+Mengen-Obergrenze: 1000
+Maximales Orderbuch-Level: 20
+==================================================
+
+Starte vollständige Bereinigung für 139 Dateien...
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-02-28T23-00-00_to_2023-03-05T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,061,550
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 57,627
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 260
+    - Entfernte Crossing-Orders: 3,349
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 63,977
+  Zeilen Ausgabe: 6,997,573
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-05T03-00-00_to_2023-03-09T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,035,101
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,811
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 55,877
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 9
+    - Entfernte Crossing-Orders: 28
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 59,716
+  Zeilen Ausgabe: 6,975,385
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-09T07-00-00_to_2023-03-13T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,048,112
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 48,917
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 31
+    - Entfernte Crossing-Orders: 304
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 52,227
+  Zeilen Ausgabe: 6,995,885
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-13T11-00-00_to_2023-03-17T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,802,880
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 8,262
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 120,757
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 173
+    - Entfernte Crossing-Orders: 1,598
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 130,617
+  Zeilen Ausgabe: 6,672,263
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-17T15-00-00_to_2023-03-21T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,049,869
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 65,141
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 168
+    - Entfernte Crossing-Orders: 1,238
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 69,380
+  Zeilen Ausgabe: 6,980,489
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-21T19-00-00_to_2023-03-25T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,045,664
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 57,955
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 753
+    - Entfernte Crossing-Orders: 7,176
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 68,136
+  Zeilen Ausgabe: 6,977,528
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-25T23-00-00_to_2023-03-30T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,014,760
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,389
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 115,816
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 464
+    - Entfernte Crossing-Orders: 5,707
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 124,912
+  Zeilen Ausgabe: 6,889,848
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-03-30T03-00-00_to_2023-04-03T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,059,158
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,002
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 70,491
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 577
+    - Entfernte Crossing-Orders: 8,345
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 81,838
+  Zeilen Ausgabe: 6,977,320
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-03T07-00-00_to_2023-04-07T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,033,817
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 67,996
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 196
+    - Entfernte Crossing-Orders: 1,351
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 72,353
+  Zeilen Ausgabe: 6,961,464
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-07T11-00-00_to_2023-04-11T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,006,820
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,002
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 62,346
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 425
+    - Entfernte Crossing-Orders: 4,102
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 69,450
+  Zeilen Ausgabe: 6,937,370
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-11T15-00-00_to_2023-04-15T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,779,309
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 8,183
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 99,746
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 586
+    - Entfernte Crossing-Orders: 8,194
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 116,123
+  Zeilen Ausgabe: 6,663,186
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-15T19-00-00_to_2023-04-19T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,031,691
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 362,766
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 602
+    - Entfernte Crossing-Orders: 8,232
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 373,999
+  Zeilen Ausgabe: 6,657,692
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-19T23-00-00_to_2023-04-24T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,009,369
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,235
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 54,636
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 211
+    - Entfernte Crossing-Orders: 1,838
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 59,709
+  Zeilen Ausgabe: 6,949,660
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-24T03-00-00_to_2023-04-28T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,032,443
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,957
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 932,668
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 6,117
+    - Entfernte Crossing-Orders: 96,392
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 1,032,017
+  Zeilen Ausgabe: 6,000,426
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-04-28T07-00-00_to_2023-05-02T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,021,279
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,883
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 506,013
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,937
+    - Entfernte Crossing-Orders: 54,107
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 563,003
+  Zeilen Ausgabe: 6,458,276
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-02T11-00-00_to_2023-05-06T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,024,082
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 636,863
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 166
+    - Entfernte Crossing-Orders: 2,057
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 641,920
+  Zeilen Ausgabe: 6,382,162
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-06T15-00-00_to_2023-05-10T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,023,888
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,003
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 72,738
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 566
+    - Entfernte Crossing-Orders: 6,691
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 82,432
+  Zeilen Ausgabe: 6,941,456
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-10T19-00-00_to_2023-05-14T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,932,600
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,703
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 313,100
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 143
+    - Entfernte Crossing-Orders: 1,518
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 318,321
+  Zeilen Ausgabe: 6,614,279
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-14T23-00-00_to_2023-05-19T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,968,474
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,310
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 697,343
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,749
+    - Entfernte Crossing-Orders: 21,973
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 721,626
+  Zeilen Ausgabe: 6,246,848
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-19T03-00-00_to_2023-05-23T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,981,218
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,025
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 196,166
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,155
+    - Entfernte Crossing-Orders: 16,042
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 215,233
+  Zeilen Ausgabe: 6,765,985
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-23T07-00-00_to_2023-05-27T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,981,078
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 75,715
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 39
+    - Entfernte Crossing-Orders: 183
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 78,903
+  Zeilen Ausgabe: 6,902,175
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-27T11-00-00_to_2023-05-31T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,953,645
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,004
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 239,991
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 342
+    - Entfernte Crossing-Orders: 4,591
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 247,586
+  Zeilen Ausgabe: 6,706,059
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-05-31T15-00-00_to_2023-06-04T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,933,954
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 530,727
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 14
+    - Entfernte Crossing-Orders: 59
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 533,787
+  Zeilen Ausgabe: 6,400,167
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-04T19-00-00_to_2023-06-08T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,008,458
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 64,319
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 104
+    - Entfernte Crossing-Orders: 1,040
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 68,360
+  Zeilen Ausgabe: 6,940,098
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-08T23-00-00_to_2023-06-13T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,046,766
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,039
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 73,874
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 306
+    - Entfernte Crossing-Orders: 4,595
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 81,508
+  Zeilen Ausgabe: 6,965,258
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-13T03-00-00_to_2023-06-17T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,951,059
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 4,105
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 122,545
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 81
+    - Entfernte Crossing-Orders: 486
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 127,136
+  Zeilen Ausgabe: 6,823,923
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-17T07-00-00_to_2023-06-21T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,016,913
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,008
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 62,407
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 76
+    - Entfernte Crossing-Orders: 691
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 66,106
+  Zeilen Ausgabe: 6,950,807
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-21T11-00-00_to_2023-06-25T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,037,656
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,003
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 53,669
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 192
+    - Entfernte Crossing-Orders: 1,352
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 58,024
+  Zeilen Ausgabe: 6,979,632
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-25T15-00-00_to_2023-06-29T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,009,790
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 73,781
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 244
+    - Entfernte Crossing-Orders: 2,367
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 79,153
+  Zeilen Ausgabe: 6,930,637
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-06-29T19-00-00_to_2023-07-03T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,014,788
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 71,230
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 31
+    - Entfernte Crossing-Orders: 283
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 74,514
+  Zeilen Ausgabe: 6,940,274
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-07-03T23-00-00_to_2023-07-09T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,028,336
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,007
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 80,208
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 30
+    - Entfernte Crossing-Orders: 204
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 83,419
+  Zeilen Ausgabe: 6,944,917
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-07-09T03-00-00_to_2023-07-15T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 5,718,090
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 36,592
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 78,136
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 62
+    - Entfernte Crossing-Orders: 423
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 115,151
+  Zeilen Ausgabe: 5,602,939
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-07-15T07-00-00_to_2023-07-19T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,997,835
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 71,884
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 21
+    - Entfernte Crossing-Orders: 112
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 75,001
+  Zeilen Ausgabe: 6,922,834
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-07-19T11-00-00_to_2023-07-23T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,020,133
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,004
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 55,228
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 30
+    - Entfernte Crossing-Orders: 301
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 58,533
+  Zeilen Ausgabe: 6,961,600
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-07-23T15-00-00_to_2023-07-27T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,965,960
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 4,685
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 85,875
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 17
+    - Entfernte Crossing-Orders: 73
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 90,633
+  Zeilen Ausgabe: 6,875,327
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-07-27T19-00-00_to_2023-08-01T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,002,607
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,010
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 51,778
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 368
+    - Entfernte Crossing-Orders: 3,982
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 58,770
+  Zeilen Ausgabe: 6,943,837
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-01T11-00-00_to_2023-08-05T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,021,975
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,004
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 65,320
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 246
+    - Entfernte Crossing-Orders: 1,780
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 70,104
+  Zeilen Ausgabe: 6,951,871
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-05T15-00-00_to_2023-08-09T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,002,402
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 114,726
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 160
+    - Entfernte Crossing-Orders: 997
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 118,728
+  Zeilen Ausgabe: 6,883,674
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-09T19-00-00_to_2023-08-13T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,004,771
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,002
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 52,320
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 74
+    - Entfernte Crossing-Orders: 550
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 55,872
+  Zeilen Ausgabe: 6,948,899
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-13T23-00-00_to_2023-08-18T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,041,357
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,002
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 53,864
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 43
+    - Entfernte Crossing-Orders: 233
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 57,099
+  Zeilen Ausgabe: 6,984,258
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-18T03-00-00_to_2023-08-22T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,017,951
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 92,565
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 78
+    - Entfernte Crossing-Orders: 510
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 96,076
+  Zeilen Ausgabe: 6,921,875
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-22T07-00-00_to_2023-08-26T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,848,068
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 6,174
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 191,569
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 116
+    - Entfernte Crossing-Orders: 944
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 198,687
+  Zeilen Ausgabe: 6,649,381
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-26T11-00-00_to_2023-08-30T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,029,020
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,003
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 38,568
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 228
+    - Entfernte Crossing-Orders: 1,938
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 43,509
+  Zeilen Ausgabe: 6,985,511
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-08-30T15-00-00_to_2023-09-03T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,024,948
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,008
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 72,894
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 904
+    - Entfernte Crossing-Orders: 15,835
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 91,737
+  Zeilen Ausgabe: 6,933,211
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-03T19-00-00_to_2023-09-07T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,042,415
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 76,516
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 328
+    - Entfernte Crossing-Orders: 2,128
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 81,649
+  Zeilen Ausgabe: 6,960,766
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-07T23-00-00_to_2023-09-12T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,023,542
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 81,810
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 745
+    - Entfernte Crossing-Orders: 7,513
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 92,324
+  Zeilen Ausgabe: 6,931,218
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-12T03-00-00_to_2023-09-16T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,020,652
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,034
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 57,763
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 35
+    - Entfernte Crossing-Orders: 270
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 61,067
+  Zeilen Ausgabe: 6,959,585
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-16T07-00-00_to_2023-09-20T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,037,483
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,004
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 50,711
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 199
+    - Entfernte Crossing-Orders: 2,166
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 55,881
+  Zeilen Ausgabe: 6,981,602
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-20T11-00-00_to_2023-09-24T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,025,704
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,007
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 59,225
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,152
+    - Entfernte Crossing-Orders: 16,772
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 79,004
+  Zeilen Ausgabe: 6,946,700
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-24T15-00-00_to_2023-09-28T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,708,888
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 9,389
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 173,510
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 58
+    - Entfernte Crossing-Orders: 672
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 183,571
+  Zeilen Ausgabe: 6,525,317
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-09-28T19-00-00_to_2023-10-02T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,023,441
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,018
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 59,910
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 13,131
+    - Entfernte Crossing-Orders: 369,508
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 432,436
+  Zeilen Ausgabe: 6,591,005
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-02T23-00-00_to_2023-10-07T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,034,797
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,032
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 40,253
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 249
+    - Entfernte Crossing-Orders: 2,317
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 45,602
+  Zeilen Ausgabe: 6,989,195
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-07T03-00-00_to_2023-10-11T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,044,196
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,414
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 93,867
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 86
+    - Entfernte Crossing-Orders: 627
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 97,908
+  Zeilen Ausgabe: 6,946,288
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-11T07-00-00_to_2023-10-15T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,067,511
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,008
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 58,061
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 93
+    - Entfernte Crossing-Orders: 702
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 61,771
+  Zeilen Ausgabe: 7,005,740
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-15T11-00-00_to_2023-10-19T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,001,554
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 4,116
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 79,849
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 152
+    - Entfernte Crossing-Orders: 1,756
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 85,721
+  Zeilen Ausgabe: 6,915,833
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-19T15-00-00_to_2023-10-23T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,048,849
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,194
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 132,309
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 522
+    - Entfernte Crossing-Orders: 5,541
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 141,044
+  Zeilen Ausgabe: 6,907,805
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-23T19-00-00_to_2023-10-27T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,054,247
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,011
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 53,156
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 64
+    - Entfernte Crossing-Orders: 484
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 56,651
+  Zeilen Ausgabe: 6,997,596
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-10-27T23-00-00_to_2023-11-01T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,027,016
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,247
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 168,110
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 110
+    - Entfernte Crossing-Orders: 893
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 172,250
+  Zeilen Ausgabe: 6,854,766
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-01T03-00-00_to_2023-11-05T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,054,704
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,004
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 339,775
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 651
+    - Entfernte Crossing-Orders: 7,027
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 349,806
+  Zeilen Ausgabe: 6,704,898
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-05T07-00-00_to_2023-11-09T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,062,319
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,002
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 58,886
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 897
+    - Entfernte Crossing-Orders: 9,011
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 70,899
+  Zeilen Ausgabe: 6,991,420
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-09T11-00-00_to_2023-11-13T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,072,720
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 45,501
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 11
+    - Entfernte Crossing-Orders: 77
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 48,583
+  Zeilen Ausgabe: 7,024,137
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-13T15-00-00_to_2023-11-17T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,028,250
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,833
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 164,057
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,120
+    - Entfernte Crossing-Orders: 11,646
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 179,536
+  Zeilen Ausgabe: 6,848,714
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-17T19-00-00_to_2023-11-21T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,071,712
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 30,817
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 235
+    - Entfernte Crossing-Orders: 2,243
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 36,066
+  Zeilen Ausgabe: 7,035,646
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-21T23-00-00_to_2023-11-26T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,060,272
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 43,992
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 863
+    - Entfernte Crossing-Orders: 10,232
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 57,230
+  Zeilen Ausgabe: 7,003,042
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-26T03-00-00_to_2023-11-30T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,063,701
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,980
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 49,207
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,781
+    - Entfernte Crossing-Orders: 30,993
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 83,180
+  Zeilen Ausgabe: 6,980,521
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-11-30T07-00-00_to_2023-12-04T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,050,970
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,012
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 50,817
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,566
+    - Entfernte Crossing-Orders: 16,116
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 69,945
+  Zeilen Ausgabe: 6,981,025
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-04T11-00-00_to_2023-12-08T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,949,075
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,040
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 82,255
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,449
+    - Entfernte Crossing-Orders: 16,288
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 101,583
+  Zeilen Ausgabe: 6,847,492
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-08T15-00-00_to_2023-12-12T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,070,254
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,973
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 113,934
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 285
+    - Entfernte Crossing-Orders: 1,797
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 118,704
+  Zeilen Ausgabe: 6,951,550
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-12T19-00-00_to_2023-12-16T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,035,789
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,928
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 113,799
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 393
+    - Entfernte Crossing-Orders: 3,387
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 121,114
+  Zeilen Ausgabe: 6,914,675
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-16T23-00-00_to_2023-12-21T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,068,235
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 52,694
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,847
+    - Entfernte Crossing-Orders: 28,754
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 84,454
+  Zeilen Ausgabe: 6,983,781
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-21T03-00-00_to_2023-12-25T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,058,978
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,007
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 35,189
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 982
+    - Entfernte Crossing-Orders: 8,723
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 46,919
+  Zeilen Ausgabe: 7,012,059
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-25T07-00-00_to_2023-12-29T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,065,569
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,007
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 45,356
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,173
+    - Entfernte Crossing-Orders: 13,530
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 61,893
+  Zeilen Ausgabe: 7,003,676
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2023-12-29T11-00-00_to_2024-01-03T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,064,453
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,009
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 39,608
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 590
+    - Entfernte Crossing-Orders: 5,923
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 48,540
+  Zeilen Ausgabe: 7,015,913
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-03T03-00-00_to_2024-01-07T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,068,745
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,005
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 68,084
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,509
+    - Entfernte Crossing-Orders: 22,515
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 93,604
+  Zeilen Ausgabe: 6,975,141
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-07T07-00-00_to_2024-01-11T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,034,379
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,011
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 107,969
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,657
+    - Entfernte Crossing-Orders: 13,214
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 124,194
+  Zeilen Ausgabe: 6,910,185
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-11T11-00-00_to_2024-01-15T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,058,723
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,012
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 76,472
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,082
+    - Entfernte Crossing-Orders: 11,633
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 91,117
+  Zeilen Ausgabe: 6,967,606
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-15T15-00-00_to_2024-01-19T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,948,079
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 5,247
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 162,627
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,655
+    - Entfernte Crossing-Orders: 14,566
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 182,440
+  Zeilen Ausgabe: 6,765,639
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-19T19-00-00_to_2024-01-23T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,050,644
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,020
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 52,285
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,811
+    - Entfernte Crossing-Orders: 17,132
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 72,437
+  Zeilen Ausgabe: 6,978,207
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-23T23-00-00_to_2024-01-28T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,064,703
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,010
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 76,700
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2,828
+    - Entfernte Crossing-Orders: 31,465
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 111,175
+  Zeilen Ausgabe: 6,953,528
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-01-28T03-00-00_to_2024-02-01T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,056,438
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,010
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 74,789
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 755
+    - Entfernte Crossing-Orders: 5,909
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 83,708
+  Zeilen Ausgabe: 6,972,730
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-01T07-00-00_to_2024-02-05T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,055,179
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,011
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 44,455
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 618
+    - Entfernte Crossing-Orders: 4,254
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 51,720
+  Zeilen Ausgabe: 7,003,459
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-05T11-00-00_to_2024-02-09T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,042,899
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,016
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 51,114
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 313
+    - Entfernte Crossing-Orders: 1,397
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 55,527
+  Zeilen Ausgabe: 6,987,372
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-09T15-00-00_to_2024-02-13T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,039,996
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,015
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 98,949
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,272
+    - Entfernte Crossing-Orders: 11,928
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 113,892
+  Zeilen Ausgabe: 6,926,104
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-13T19-00-00_to_2024-02-17T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,056,095
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,008
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 70,853
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 643
+    - Entfernte Crossing-Orders: 7,540
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 81,401
+  Zeilen Ausgabe: 6,974,694
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-17T23-00-00_to_2024-02-22T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,026,316
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,007
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 68,524
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,135
+    - Entfernte Crossing-Orders: 10,062
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 81,593
+  Zeilen Ausgabe: 6,944,723
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-22T03-00-00_to_2024-02-26T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,032,178
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 85,852
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,790
+    - Entfernte Crossing-Orders: 18,636
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 107,494
+  Zeilen Ausgabe: 6,924,684
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-02-26T07-00-00_to_2024-03-01T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,060,002
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,019
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 53,178
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 596
+    - Entfernte Crossing-Orders: 5,931
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 62,128
+  Zeilen Ausgabe: 6,997,874
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-01T11-00-00_to_2024-03-05T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,036,733
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,012
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 40,605
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 691
+    - Entfernte Crossing-Orders: 6,786
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 50,403
+  Zeilen Ausgabe: 6,986,330
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-05T15-00-00_to_2024-03-09T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,005,787
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,295
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 40,097
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 632
+    - Entfernte Crossing-Orders: 4,252
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 47,644
+  Zeilen Ausgabe: 6,958,143
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-09T19-00-00_to_2024-03-13T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,894,735
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 4,359
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 118,675
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,039
+    - Entfernte Crossing-Orders: 8,198
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 131,232
+  Zeilen Ausgabe: 6,763,503
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-13T23-00-00_to_2024-03-18T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,016,872
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,013
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 90,974
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,503
+    - Entfernte Crossing-Orders: 12,455
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 106,442
+  Zeilen Ausgabe: 6,910,430
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-18T03-00-00_to_2024-03-22T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,030,248
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,010
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 69,388
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 284
+    - Entfernte Crossing-Orders: 1,813
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 74,211
+  Zeilen Ausgabe: 6,956,037
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-22T07-00-00_to_2024-03-26T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,021,066
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,011
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 49,850
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 919
+    - Entfernte Crossing-Orders: 10,127
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 62,988
+  Zeilen Ausgabe: 6,958,078
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-26T11-00-00_to_2024-03-30T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,940,577
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,030
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 79,728
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,915
+    - Entfernte Crossing-Orders: 19,108
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 101,866
+  Zeilen Ausgabe: 6,838,711
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-03-30T15-00-00_to_2024-04-03T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,901,956
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,024
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 98,769
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,389
+    - Entfernte Crossing-Orders: 13,840
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 115,633
+  Zeilen Ausgabe: 6,786,323
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-03T19-00-00_to_2024-04-07T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,949,629
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,024
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 72,536
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2,541
+    - Entfernte Crossing-Orders: 29,720
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 105,280
+  Zeilen Ausgabe: 6,844,349
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-07T23-00-00_to_2024-04-12T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,007,971
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,024
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 60,377
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,522
+    - Entfernte Crossing-Orders: 18,175
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 81,576
+  Zeilen Ausgabe: 6,926,395
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-12T03-00-00_to_2024-04-16T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,974,917
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,052
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 84,303
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,382
+    - Entfernte Crossing-Orders: 16,606
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 103,961
+  Zeilen Ausgabe: 6,870,956
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-16T07-00-00_to_2024-04-20T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,983,442
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,270
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 115,147
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 675
+    - Entfernte Crossing-Orders: 4,668
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 123,085
+  Zeilen Ausgabe: 6,860,357
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-20T11-00-00_to_2024-04-24T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,880,777
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 5,298
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 128,987
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,048
+    - Entfernte Crossing-Orders: 6,889
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 141,174
+  Zeilen Ausgabe: 6,739,603
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-24T15-00-00_to_2024-04-28T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,758,886
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 7,034
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 157,562
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 995
+    - Entfernte Crossing-Orders: 6,943
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 171,539
+  Zeilen Ausgabe: 6,587,347
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-04-28T19-00-00_to_2024-05-02T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,935,482
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,078
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 118,076
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,102
+    - Entfernte Crossing-Orders: 7,890
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 129,044
+  Zeilen Ausgabe: 6,806,438
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-02T23-00-00_to_2024-05-07T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,974,753
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,018
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 55,335
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 456
+    - Entfernte Crossing-Orders: 2,875
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 61,228
+  Zeilen Ausgabe: 6,913,525
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-07T03-00-00_to_2024-05-11T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,976,158
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,021
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 63,888
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 875
+    - Entfernte Crossing-Orders: 7,083
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 73,992
+  Zeilen Ausgabe: 6,902,166
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-11T07-00-00_to_2024-05-15T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,979,243
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,024
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 55,488
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,201
+    - Entfernte Crossing-Orders: 10,690
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 69,202
+  Zeilen Ausgabe: 6,910,041
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-15T11-00-00_to_2024-05-19T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,936,197
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,029
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 52,370
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,506
+    - Entfernte Crossing-Orders: 11,007
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 66,406
+  Zeilen Ausgabe: 6,869,791
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-19T15-00-00_to_2024-05-23T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,944,298
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,019
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 49,986
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,130
+    - Entfernte Crossing-Orders: 10,753
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 63,758
+  Zeilen Ausgabe: 6,880,540
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-23T19-00-00_to_2024-05-27T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,951,526
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,994
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 70,768
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2,147
+    - Entfernte Crossing-Orders: 23,034
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 96,796
+  Zeilen Ausgabe: 6,854,730
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-05-27T23-00-00_to_2024-06-01T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,820,871
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 4,215
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 78,674
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 3,090
+    - Entfernte Crossing-Orders: 28,380
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 111,269
+  Zeilen Ausgabe: 6,709,602
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-01T03-00-00_to_2024-06-05T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,890,458
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,992
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 95,545
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2,101
+    - Entfernte Crossing-Orders: 18,491
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 117,028
+  Zeilen Ausgabe: 6,773,430
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-05T07-00-00_to_2024-06-09T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,860,490
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,006
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 61,723
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,482
+    - Entfernte Crossing-Orders: 8,950
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 73,679
+  Zeilen Ausgabe: 6,786,811
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-09T11-00-00_to_2024-06-13T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,866,737
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,396
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 82,868
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2,383
+    - Entfernte Crossing-Orders: 29,186
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 115,450
+  Zeilen Ausgabe: 6,751,287
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-13T15-00-00_to_2024-06-17T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,844,195
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,001
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 90,262
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1,232
+    - Entfernte Crossing-Orders: 9,744
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 103,007
+  Zeilen Ausgabe: 6,741,188
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-17T19-00-00_to_2024-06-21T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,025,868
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 35,246
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 24
+    - Entfernte Crossing-Orders: 184
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 38,430
+  Zeilen Ausgabe: 6,987,438
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-21T23-00-00_to_2024-06-26T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,026,215
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 58,140
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 16
+    - Entfernte Crossing-Orders: 128
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 61,268
+  Zeilen Ausgabe: 6,964,947
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-26T03-00-00_to_2024-06-30T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,011,283
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 36,547
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 0
+    - Entfernte Crossing-Orders: 0
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 39,547
+  Zeilen Ausgabe: 6,971,736
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-06-30T07-00-00_to_2024-07-04T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,028,715
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,173
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 51,718
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 0
+    - Entfernte Crossing-Orders: 0
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 54,891
+  Zeilen Ausgabe: 6,973,824
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-04T11-00-00_to_2024-07-08T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,016,278
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,022
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 36,745
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2
+    - Entfernte Crossing-Orders: 10
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 39,777
+  Zeilen Ausgabe: 6,976,501
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-08T15-00-00_to_2024-07-12T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,023,917
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 35,635
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 28
+    - Entfernte Crossing-Orders: 88
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 38,723
+  Zeilen Ausgabe: 6,985,194
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-12T19-00-00_to_2024-07-16T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,969,151
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 40,520
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 5
+    - Entfernte Crossing-Orders: 24
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 43,544
+  Zeilen Ausgabe: 6,925,607
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-16T23-00-00_to_2024-07-21T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,007,660
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 43,705
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 28
+    - Entfernte Crossing-Orders: 192
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 46,897
+  Zeilen Ausgabe: 6,960,763
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-21T03-00-00_to_2024-07-25T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,027,881
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 2,998
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 57,176
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 749
+    - Entfernte Crossing-Orders: 11,217
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 71,391
+  Zeilen Ausgabe: 6,956,490
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-25T07-00-00_to_2024-07-29T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,035,238
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,010
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 35,523
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 14
+    - Entfernte Crossing-Orders: 54
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 38,587
+  Zeilen Ausgabe: 6,996,651
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-07-29T11-00-00_to_2024-08-02T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,027,661
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 40,822
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2
+    - Entfernte Crossing-Orders: 13
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 43,835
+  Zeilen Ausgabe: 6,983,826
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-02T15-00-00_to_2024-08-06T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,028,495
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 35,449
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 161
+    - Entfernte Crossing-Orders: 1,730
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 40,179
+  Zeilen Ausgabe: 6,988,316
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-06T19-00-00_to_2024-08-10T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,027,887
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 33,103
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 3
+    - Entfernte Crossing-Orders: 12
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 36,115
+  Zeilen Ausgabe: 6,991,772
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-10T23-00-00_to_2024-08-15T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,004,135
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 34,842
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 2
+    - Entfernte Crossing-Orders: 28
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 37,870
+  Zeilen Ausgabe: 6,966,265
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-15T03-00-00_to_2024-08-19T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,919,352
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,048
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 30,510
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 0
+    - Entfernte Crossing-Orders: 0
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 33,558
+  Zeilen Ausgabe: 6,885,794
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-19T07-00-00_to_2024-08-23T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,013,314
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 27,523
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1
+    - Entfernte Crossing-Orders: 3
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 30,526
+  Zeilen Ausgabe: 6,982,788
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-23T11-00-00_to_2024-08-27T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 7,019,372
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 29,856
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1
+    - Entfernte Crossing-Orders: 3
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 32,859
+  Zeilen Ausgabe: 6,986,513
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-27T15-00-00_to_2024-08-31T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,970,988
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,011
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 31,637
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1
+    - Entfernte Crossing-Orders: 5
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 34,653
+  Zeilen Ausgabe: 6,936,335
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-08-31T19-00-00_to_2024-09-04T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,960,252
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 50,230
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 3
+    - Entfernte Crossing-Orders: 35
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 53,265
+  Zeilen Ausgabe: 6,906,987
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-04T23-00-00_to_2024-09-09T02-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,942,790
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,011
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 38,360
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 3
+    - Entfernte Crossing-Orders: 25
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 41,396
+  Zeilen Ausgabe: 6,901,394
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-09T03-00-00_to_2024-09-13T06-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,946,886
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 37,300
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 4
+    - Entfernte Crossing-Orders: 29
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 40,329
+  Zeilen Ausgabe: 6,906,557
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-13T07-00-00_to_2024-09-17T10-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,952,489
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,004
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 39,832
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 179
+    - Entfernte Crossing-Orders: 1,813
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 44,649
+  Zeilen Ausgabe: 6,907,840
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-17T11-00-00_to_2024-09-21T14-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,961,322
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,022
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 36,840
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 44
+    - Entfernte Crossing-Orders: 331
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 40,193
+  Zeilen Ausgabe: 6,921,129
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-21T15-00-00_to_2024-09-25T18-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,919,145
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,073
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 53,963
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 4
+    - Entfernte Crossing-Orders: 16
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 57,052
+  Zeilen Ausgabe: 6,862,093
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-25T19-00-00_to_2024-09-29T22-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 6,971,479
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 3,000
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 47,377
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 1
+    - Entfernte Crossing-Orders: 11
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 50,388
+  Zeilen Ausgabe: 6,921,091
+
+--------------------------------------------------
+Verarbeitung abgeschlossen für: 2024-09-29T23-00-00_to_2024-09-30T21-00-00.parquet
+--------------------------------------------------
+  Zeilen Eingabe: 1,600,486
+  Phase 1 (Technische Bereinigung):
+    - Entfernt (fehlende krit. Spalten): 690
+    - Entfernt (fehlende Zeitstempel): 0
+    - Entfernt (techn. inkonsistent): 9,652
+  Phase 2 (Logische Bereinigung):
+    - Gefundene Crossed-Book-Snapshots: 222
+    - Entfernte Crossing-Orders: 3,787
+--------------------------------------------------
+  Zeilen Gesamt entfernt: 14,129
+  Zeilen Ausgabe: 1,586,357
+
+==================================================
+--- FINALE ZUSAMMENFASSUNG DER GESAMTEN BEREINIGUNG ---
+==================================================
+
+Gesamtzahl der Zeilen in Rohdaten: 965,993,579
+------------------------------
+Entfernt in Phase 1 (Techn. Bereinigung):
+  - Fehlende kritische Werte: 489,465
+  - Fehlende Zeitstempel: 0
+  - Technische Inkonsistenzen: 13,701,175
+------------------------------
+Entfernt in Phase 2 (Log. Bereinigung):
+  - Gefundene Crossed-Book-Snapshots: 0
+  - Entfernte Crossing-Orders: 1,394,450
+------------------------------
+Gesamtzahl der entfernten Zeilen: 15,585,090
+Gesamtzahl der Zeilen in final bereinigten Daten: 950,408,489
+
+Anteil der beibehaltenen Daten: 98.39%
+
+--- Prozess abgeschlossen ---

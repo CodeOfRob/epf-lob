@@ -1,0 +1,857 @@
+==================================================
+--- KONFIGURATION ---
+Startzeitpunkt: 2025-10-10 23:10:52
+Eingabe-Verzeichnis (bereinigte Daten): ../../../data/parquet/02-cleaned-batches
+Ausgabe-Verzeichnis (strukturierte Daten): ../../../data/parquet/03-aggregated-batches
+Minimale einzigartige Preis-Level für zensierte Seiten: 11
+Ziel-Level im finalen Orderbuch: 10
+==================================================
+
+Starte korrekte, optimierte Verarbeitung von 139 Parquet-Dateien...
+
+--- Verarbeitung für: 2023-02-28T23-00-00_to_2023-03-05T02-00-00.parquet ---
+  Snapshots im Batch: 177,099
+  Snapshots verworfen (dünn & zensiert): 9,911
+  Snapshots verarbeitet: 167,188
+  Resultierende Zeilen (L10): 3,343,760
+
+--- Verarbeitung für: 2023-03-05T03-00-00_to_2023-03-09T06-00-00.parquet ---
+  Snapshots im Batch: 176,289
+  Snapshots verworfen (dünn & zensiert): 14,369
+  Snapshots verarbeitet: 161,920
+  Resultierende Zeilen (L10): 3,238,400
+
+--- Verarbeitung für: 2023-03-09T07-00-00_to_2023-03-13T10-00-00.parquet ---
+  Snapshots im Batch: 177,094
+  Snapshots verworfen (dünn & zensiert): 11,857
+  Snapshots verarbeitet: 165,237
+  Resultierende Zeilen (L10): 3,304,740
+
+--- Verarbeitung für: 2023-03-13T11-00-00_to_2023-03-17T14-00-00.parquet ---
+  Snapshots im Batch: 168,998
+  Snapshots verworfen (dünn & zensiert): 6,127
+  Snapshots verarbeitet: 162,871
+  Resultierende Zeilen (L10): 3,257,420
+
+--- Verarbeitung für: 2023-03-17T15-00-00_to_2023-03-21T18-00-00.parquet ---
+  Snapshots im Batch: 177,099
+  Snapshots verworfen (dünn & zensiert): 11,084
+  Snapshots verarbeitet: 166,015
+  Resultierende Zeilen (L10): 3,320,300
+
+--- Verarbeitung für: 2023-03-21T19-00-00_to_2023-03-25T22-00-00.parquet ---
+  Snapshots im Batch: 177,059
+  Snapshots verworfen (dünn & zensiert): 9,448
+  Snapshots verarbeitet: 167,611
+  Resultierende Zeilen (L10): 3,352,220
+
+--- Verarbeitung für: 2023-03-25T23-00-00_to_2023-03-30T02-00-00.parquet ---
+  Snapshots im Batch: 175,397
+  Snapshots verworfen (dünn & zensiert): 11,094
+  Snapshots verarbeitet: 164,303
+  Resultierende Zeilen (L10): 3,286,060
+
+--- Verarbeitung für: 2023-03-30T03-00-00_to_2023-04-03T06-00-00.parquet ---
+  Snapshots im Batch: 177,071
+  Snapshots verworfen (dünn & zensiert): 10,051
+  Snapshots verarbeitet: 167,020
+  Resultierende Zeilen (L10): 3,340,400
+
+--- Verarbeitung für: 2023-04-03T07-00-00_to_2023-04-07T10-00-00.parquet ---
+  Snapshots im Batch: 177,086
+  Snapshots verworfen (dünn & zensiert): 9,718
+  Snapshots verarbeitet: 167,368
+  Resultierende Zeilen (L10): 3,347,360
+
+--- Verarbeitung für: 2023-04-07T11-00-00_to_2023-04-11T14-00-00.parquet ---
+  Snapshots im Batch: 177,090
+  Snapshots verworfen (dünn & zensiert): 10,784
+  Snapshots verarbeitet: 166,306
+  Resultierende Zeilen (L10): 3,326,120
+
+--- Verarbeitung für: 2023-04-11T15-00-00_to_2023-04-15T18-00-00.parquet ---
+  Snapshots im Batch: 169,459
+  Snapshots verworfen (dünn & zensiert): 10,379
+  Snapshots verarbeitet: 159,080
+  Resultierende Zeilen (L10): 3,181,600
+
+--- Verarbeitung für: 2023-04-15T19-00-00_to_2023-04-19T22-00-00.parquet ---
+  Snapshots im Batch: 177,091
+  Snapshots verworfen (dünn & zensiert): 15,672
+  Snapshots verarbeitet: 161,419
+  Resultierende Zeilen (L10): 3,228,380
+
+--- Verarbeitung für: 2023-04-19T23-00-00_to_2023-04-24T02-00-00.parquet ---
+  Snapshots im Batch: 176,865
+  Snapshots verworfen (dünn & zensiert): 19,062
+  Snapshots verarbeitet: 157,803
+  Resultierende Zeilen (L10): 3,156,060
+
+--- Verarbeitung für: 2023-04-24T03-00-00_to_2023-04-28T06-00-00.parquet ---
+  Snapshots im Batch: 173,820
+  Snapshots verworfen (dünn & zensiert): 31,899
+  Snapshots verarbeitet: 141,921
+  Resultierende Zeilen (L10): 2,838,420
+
+--- Verarbeitung für: 2023-04-28T07-00-00_to_2023-05-02T10-00-00.parquet ---
+  Snapshots im Batch: 176,538
+  Snapshots verworfen (dünn & zensiert): 35,977
+  Snapshots verarbeitet: 140,561
+  Resultierende Zeilen (L10): 2,811,220
+
+--- Verarbeitung für: 2023-05-02T11-00-00_to_2023-05-06T14-00-00.parquet ---
+  Snapshots im Batch: 177,080
+  Snapshots verworfen (dünn & zensiert): 33,746
+  Snapshots verarbeitet: 143,334
+  Resultierende Zeilen (L10): 2,866,680
+
+--- Verarbeitung für: 2023-05-06T15-00-00_to_2023-05-10T18-00-00.parquet ---
+  Snapshots im Batch: 177,097
+  Snapshots verworfen (dünn & zensiert): 10,396
+  Snapshots verarbeitet: 166,701
+  Resultierende Zeilen (L10): 3,334,020
+
+--- Verarbeitung für: 2023-05-10T19-00-00_to_2023-05-14T22-00-00.parquet ---
+  Snapshots im Batch: 176,388
+  Snapshots verworfen (dünn & zensiert): 19,153
+  Snapshots verarbeitet: 157,235
+  Resultierende Zeilen (L10): 3,144,700
+
+--- Verarbeitung für: 2023-05-14T23-00-00_to_2023-05-19T02-00-00.parquet ---
+  Snapshots im Batch: 176,385
+  Snapshots verworfen (dünn & zensiert): 24,227
+  Snapshots verarbeitet: 152,158
+  Resultierende Zeilen (L10): 3,043,160
+
+--- Verarbeitung für: 2023-05-19T03-00-00_to_2023-05-23T06-00-00.parquet ---
+  Snapshots im Batch: 177,069
+  Snapshots verworfen (dünn & zensiert): 25,210
+  Snapshots verarbeitet: 151,859
+  Resultierende Zeilen (L10): 3,037,180
+
+--- Verarbeitung für: 2023-05-23T07-00-00_to_2023-05-27T10-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 13,297
+  Snapshots verarbeitet: 163,798
+  Resultierende Zeilen (L10): 3,275,960
+
+--- Verarbeitung für: 2023-05-27T11-00-00_to_2023-05-31T14-00-00.parquet ---
+  Snapshots im Batch: 177,090
+  Snapshots verworfen (dünn & zensiert): 23,221
+  Snapshots verarbeitet: 153,869
+  Resultierende Zeilen (L10): 3,077,380
+
+--- Verarbeitung für: 2023-05-31T15-00-00_to_2023-06-04T18-00-00.parquet ---
+  Snapshots im Batch: 177,083
+  Snapshots verworfen (dünn & zensiert): 44,044
+  Snapshots verarbeitet: 133,039
+  Resultierende Zeilen (L10): 2,660,780
+
+--- Verarbeitung für: 2023-06-04T19-00-00_to_2023-06-08T22-00-00.parquet ---
+  Snapshots im Batch: 177,099
+  Snapshots verworfen (dünn & zensiert): 14,204
+  Snapshots verarbeitet: 162,895
+  Resultierende Zeilen (L10): 3,257,900
+
+--- Verarbeitung für: 2023-06-08T23-00-00_to_2023-06-13T02-00-00.parquet ---
+  Snapshots im Batch: 177,061
+  Snapshots verworfen (dünn & zensiert): 20,315
+  Snapshots verarbeitet: 156,746
+  Resultierende Zeilen (L10): 3,134,920
+
+--- Verarbeitung für: 2023-06-13T03-00-00_to_2023-06-17T06-00-00.parquet ---
+  Snapshots im Batch: 174,302
+  Snapshots verworfen (dünn & zensiert): 17,812
+  Snapshots verarbeitet: 156,490
+  Resultierende Zeilen (L10): 3,129,800
+
+--- Verarbeitung für: 2023-06-17T07-00-00_to_2023-06-21T10-00-00.parquet ---
+  Snapshots im Batch: 177,092
+  Snapshots verworfen (dünn & zensiert): 21,944
+  Snapshots verarbeitet: 155,148
+  Resultierende Zeilen (L10): 3,102,960
+
+--- Verarbeitung für: 2023-06-21T11-00-00_to_2023-06-25T14-00-00.parquet ---
+  Snapshots im Batch: 177,097
+  Snapshots verworfen (dünn & zensiert): 19,735
+  Snapshots verarbeitet: 157,362
+  Resultierende Zeilen (L10): 3,147,240
+
+--- Verarbeitung für: 2023-06-25T15-00-00_to_2023-06-29T18-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 16,552
+  Snapshots verarbeitet: 160,543
+  Resultierende Zeilen (L10): 3,210,860
+
+--- Verarbeitung für: 2023-06-29T19-00-00_to_2023-07-03T22-00-00.parquet ---
+  Snapshots im Batch: 177,099
+  Snapshots verworfen (dünn & zensiert): 14,265
+  Snapshots verarbeitet: 162,834
+  Resultierende Zeilen (L10): 3,256,680
+
+--- Verarbeitung für: 2023-07-03T23-00-00_to_2023-07-09T02-00-00.parquet ---
+  Snapshots im Batch: 177,011
+  Snapshots verworfen (dünn & zensiert): 15,503
+  Snapshots verarbeitet: 161,508
+  Resultierende Zeilen (L10): 3,230,160
+
+--- Verarbeitung für: 2023-07-09T03-00-00_to_2023-07-15T06-00-00.parquet ---
+  Snapshots im Batch: 143,508
+  Snapshots verworfen (dünn & zensiert): 14,211
+  Snapshots verarbeitet: 129,297
+  Resultierende Zeilen (L10): 2,585,940
+
+--- Verarbeitung für: 2023-07-15T07-00-00_to_2023-07-19T10-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 17,430
+  Snapshots verarbeitet: 159,665
+  Resultierende Zeilen (L10): 3,193,300
+
+--- Verarbeitung für: 2023-07-19T11-00-00_to_2023-07-23T14-00-00.parquet ---
+  Snapshots im Batch: 177,096
+  Snapshots verworfen (dünn & zensiert): 22,610
+  Snapshots verarbeitet: 154,486
+  Resultierende Zeilen (L10): 3,089,720
+
+--- Verarbeitung für: 2023-07-23T15-00-00_to_2023-07-27T18-00-00.parquet ---
+  Snapshots im Batch: 175,415
+  Snapshots verworfen (dünn & zensiert): 21,518
+  Snapshots verarbeitet: 153,897
+  Resultierende Zeilen (L10): 3,077,940
+
+--- Verarbeitung für: 2023-07-27T19-00-00_to_2023-08-01T10-00-00.parquet ---
+  Snapshots im Batch: 176,930
+  Snapshots verworfen (dünn & zensiert): 24,601
+  Snapshots verarbeitet: 152,329
+  Resultierende Zeilen (L10): 3,046,580
+
+--- Verarbeitung für: 2023-08-01T11-00-00_to_2023-08-05T14-00-00.parquet ---
+  Snapshots im Batch: 177,088
+  Snapshots verworfen (dünn & zensiert): 16,771
+  Snapshots verarbeitet: 160,317
+  Resultierende Zeilen (L10): 3,206,340
+
+--- Verarbeitung für: 2023-08-05T15-00-00_to_2023-08-09T18-00-00.parquet ---
+  Snapshots im Batch: 177,014
+  Snapshots verworfen (dünn & zensiert): 19,260
+  Snapshots verarbeitet: 157,754
+  Resultierende Zeilen (L10): 3,155,080
+
+--- Verarbeitung für: 2023-08-09T19-00-00_to_2023-08-13T22-00-00.parquet ---
+  Snapshots im Batch: 177,098
+  Snapshots verworfen (dünn & zensiert): 18,282
+  Snapshots verarbeitet: 158,816
+  Resultierende Zeilen (L10): 3,176,320
+
+--- Verarbeitung für: 2023-08-13T23-00-00_to_2023-08-18T02-00-00.parquet ---
+  Snapshots im Batch: 177,098
+  Snapshots verworfen (dünn & zensiert): 16,818
+  Snapshots verarbeitet: 160,280
+  Resultierende Zeilen (L10): 3,205,600
+
+--- Verarbeitung für: 2023-08-18T03-00-00_to_2023-08-22T06-00-00.parquet ---
+  Snapshots im Batch: 176,859
+  Snapshots verworfen (dünn & zensiert): 11,769
+  Snapshots verarbeitet: 165,090
+  Resultierende Zeilen (L10): 3,301,800
+
+--- Verarbeitung für: 2023-08-22T07-00-00_to_2023-08-26T10-00-00.parquet ---
+  Snapshots im Batch: 170,880
+  Snapshots verworfen (dünn & zensiert): 11,589
+  Snapshots verarbeitet: 159,291
+  Resultierende Zeilen (L10): 3,185,820
+
+--- Verarbeitung für: 2023-08-26T11-00-00_to_2023-08-30T14-00-00.parquet ---
+  Snapshots im Batch: 177,097
+  Snapshots verworfen (dünn & zensiert): 14,476
+  Snapshots verarbeitet: 162,621
+  Resultierende Zeilen (L10): 3,252,420
+
+--- Verarbeitung für: 2023-08-30T15-00-00_to_2023-09-03T18-00-00.parquet ---
+  Snapshots im Batch: 177,092
+  Snapshots verworfen (dünn & zensiert): 17,809
+  Snapshots verarbeitet: 159,283
+  Resultierende Zeilen (L10): 3,185,660
+
+--- Verarbeitung für: 2023-09-03T19-00-00_to_2023-09-07T22-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 17,526
+  Snapshots verarbeitet: 159,569
+  Resultierende Zeilen (L10): 3,191,380
+
+--- Verarbeitung für: 2023-09-07T23-00-00_to_2023-09-12T02-00-00.parquet ---
+  Snapshots im Batch: 177,099
+  Snapshots verworfen (dünn & zensiert): 15,522
+  Snapshots verarbeitet: 161,577
+  Resultierende Zeilen (L10): 3,231,540
+
+--- Verarbeitung für: 2023-09-12T03-00-00_to_2023-09-16T06-00-00.parquet ---
+  Snapshots im Batch: 177,066
+  Snapshots verworfen (dünn & zensiert): 16,357
+  Snapshots verarbeitet: 160,709
+  Resultierende Zeilen (L10): 3,214,180
+
+--- Verarbeitung für: 2023-09-16T07-00-00_to_2023-09-20T10-00-00.parquet ---
+  Snapshots im Batch: 177,096
+  Snapshots verworfen (dünn & zensiert): 23,348
+  Snapshots verarbeitet: 153,748
+  Resultierende Zeilen (L10): 3,074,960
+
+--- Verarbeitung für: 2023-09-20T11-00-00_to_2023-09-24T14-00-00.parquet ---
+  Snapshots im Batch: 177,093
+  Snapshots verworfen (dünn & zensiert): 21,364
+  Snapshots verarbeitet: 155,729
+  Resultierende Zeilen (L10): 3,114,580
+
+--- Verarbeitung für: 2023-09-24T15-00-00_to_2023-09-28T18-00-00.parquet ---
+  Snapshots im Batch: 166,174
+  Snapshots verworfen (dünn & zensiert): 17,641
+  Snapshots verarbeitet: 148,533
+  Resultierende Zeilen (L10): 2,970,660
+
+--- Verarbeitung für: 2023-09-28T19-00-00_to_2023-10-02T22-00-00.parquet ---
+  Snapshots im Batch: 173,764
+  Snapshots verworfen (dünn & zensiert): 30,493
+  Snapshots verarbeitet: 143,271
+  Resultierende Zeilen (L10): 2,865,420
+
+--- Verarbeitung für: 2023-10-02T23-00-00_to_2023-10-07T02-00-00.parquet ---
+  Snapshots im Batch: 177,068
+  Snapshots verworfen (dünn & zensiert): 18,452
+  Snapshots verarbeitet: 158,616
+  Resultierende Zeilen (L10): 3,172,320
+
+--- Verarbeitung für: 2023-10-07T03-00-00_to_2023-10-11T06-00-00.parquet ---
+  Snapshots im Batch: 175,884
+  Snapshots verworfen (dünn & zensiert): 15,576
+  Snapshots verarbeitet: 160,308
+  Resultierende Zeilen (L10): 3,206,160
+
+--- Verarbeitung für: 2023-10-11T07-00-00_to_2023-10-15T10-00-00.parquet ---
+  Snapshots im Batch: 177,092
+  Snapshots verworfen (dünn & zensiert): 24,368
+  Snapshots verarbeitet: 152,724
+  Resultierende Zeilen (L10): 3,054,480
+
+--- Verarbeitung für: 2023-10-15T11-00-00_to_2023-10-19T14-00-00.parquet ---
+  Snapshots im Batch: 174,304
+  Snapshots verworfen (dünn & zensiert): 9,374
+  Snapshots verarbeitet: 164,930
+  Resultierende Zeilen (L10): 3,298,600
+
+--- Verarbeitung für: 2023-10-19T15-00-00_to_2023-10-23T18-00-00.parquet ---
+  Snapshots im Batch: 175,942
+  Snapshots verworfen (dünn & zensiert): 12,739
+  Snapshots verarbeitet: 163,203
+  Resultierende Zeilen (L10): 3,264,060
+
+--- Verarbeitung für: 2023-10-23T19-00-00_to_2023-10-27T22-00-00.parquet ---
+  Snapshots im Batch: 177,089
+  Snapshots verworfen (dünn & zensiert): 12,260
+  Snapshots verarbeitet: 164,829
+  Resultierende Zeilen (L10): 3,296,580
+
+--- Verarbeitung für: 2023-10-27T23-00-00_to_2023-11-01T02-00-00.parquet ---
+  Snapshots im Batch: 176,834
+  Snapshots verworfen (dünn & zensiert): 23,329
+  Snapshots verarbeitet: 153,505
+  Resultierende Zeilen (L10): 3,070,100
+
+--- Verarbeitung für: 2023-11-01T03-00-00_to_2023-11-05T06-00-00.parquet ---
+  Snapshots im Batch: 176,987
+  Snapshots verworfen (dünn & zensiert): 37,696
+  Snapshots verarbeitet: 139,291
+  Resultierende Zeilen (L10): 2,785,820
+
+--- Verarbeitung für: 2023-11-05T07-00-00_to_2023-11-09T10-00-00.parquet ---
+  Snapshots im Batch: 177,098
+  Snapshots verworfen (dünn & zensiert): 15,726
+  Snapshots verarbeitet: 161,372
+  Resultierende Zeilen (L10): 3,227,440
+
+--- Verarbeitung für: 2023-11-09T11-00-00_to_2023-11-13T14-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 17,161
+  Snapshots verarbeitet: 159,934
+  Resultierende Zeilen (L10): 3,198,680
+
+--- Verarbeitung für: 2023-11-13T15-00-00_to_2023-11-17T18-00-00.parquet ---
+  Snapshots im Batch: 173,435
+  Snapshots verworfen (dünn & zensiert): 23,561
+  Snapshots verarbeitet: 149,874
+  Resultierende Zeilen (L10): 2,997,480
+
+--- Verarbeitung für: 2023-11-17T19-00-00_to_2023-11-21T22-00-00.parquet ---
+  Snapshots im Batch: 177,094
+  Snapshots verworfen (dünn & zensiert): 19,602
+  Snapshots verarbeitet: 157,492
+  Resultierende Zeilen (L10): 3,149,840
+
+--- Verarbeitung für: 2023-11-21T23-00-00_to_2023-11-26T02-00-00.parquet ---
+  Snapshots im Batch: 177,076
+  Snapshots verworfen (dünn & zensiert): 20,080
+  Snapshots verarbeitet: 156,996
+  Resultierende Zeilen (L10): 3,139,920
+
+--- Verarbeitung für: 2023-11-26T03-00-00_to_2023-11-30T06-00-00.parquet ---
+  Snapshots im Batch: 177,071
+  Snapshots verworfen (dünn & zensiert): 17,318
+  Snapshots verarbeitet: 159,753
+  Resultierende Zeilen (L10): 3,195,060
+
+--- Verarbeitung für: 2023-11-30T07-00-00_to_2023-12-04T10-00-00.parquet ---
+  Snapshots im Batch: 177,088
+  Snapshots verworfen (dünn & zensiert): 20,219
+  Snapshots verarbeitet: 156,869
+  Resultierende Zeilen (L10): 3,137,380
+
+--- Verarbeitung für: 2023-12-04T11-00-00_to_2023-12-08T14-00-00.parquet ---
+  Snapshots im Batch: 177,060
+  Snapshots verworfen (dünn & zensiert): 21,552
+  Snapshots verarbeitet: 155,508
+  Resultierende Zeilen (L10): 3,110,160
+
+--- Verarbeitung für: 2023-12-08T15-00-00_to_2023-12-12T18-00-00.parquet ---
+  Snapshots im Batch: 177,071
+  Snapshots verworfen (dünn & zensiert): 23,889
+  Snapshots verarbeitet: 153,182
+  Resultierende Zeilen (L10): 3,063,640
+
+--- Verarbeitung für: 2023-12-12T19-00-00_to_2023-12-16T22-00-00.parquet ---
+  Snapshots im Batch: 174,370
+  Snapshots verworfen (dünn & zensiert): 22,431
+  Snapshots verarbeitet: 151,939
+  Resultierende Zeilen (L10): 3,038,780
+
+--- Verarbeitung für: 2023-12-16T23-00-00_to_2023-12-21T02-00-00.parquet ---
+  Snapshots im Batch: 177,094
+  Snapshots verworfen (dünn & zensiert): 24,123
+  Snapshots verarbeitet: 152,971
+  Resultierende Zeilen (L10): 3,059,420
+
+--- Verarbeitung für: 2023-12-21T03-00-00_to_2023-12-25T06-00-00.parquet ---
+  Snapshots im Batch: 177,081
+  Snapshots verworfen (dünn & zensiert): 19,913
+  Snapshots verarbeitet: 157,168
+  Resultierende Zeilen (L10): 3,143,360
+
+--- Verarbeitung für: 2023-12-25T07-00-00_to_2023-12-29T10-00-00.parquet ---
+  Snapshots im Batch: 177,093
+  Snapshots verworfen (dünn & zensiert): 19,390
+  Snapshots verarbeitet: 157,703
+  Resultierende Zeilen (L10): 3,154,060
+
+--- Verarbeitung für: 2023-12-29T11-00-00_to_2024-01-03T02-00-00.parquet ---
+  Snapshots im Batch: 177,091
+  Snapshots verworfen (dünn & zensiert): 16,606
+  Snapshots verarbeitet: 160,485
+  Resultierende Zeilen (L10): 3,209,700
+
+--- Verarbeitung für: 2024-01-03T03-00-00_to_2024-01-07T06-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 17,669
+  Snapshots verarbeitet: 159,426
+  Resultierende Zeilen (L10): 3,188,520
+
+--- Verarbeitung für: 2024-01-07T07-00-00_to_2024-01-11T10-00-00.parquet ---
+  Snapshots im Batch: 177,089
+  Snapshots verworfen (dünn & zensiert): 17,821
+  Snapshots verarbeitet: 159,268
+  Resultierende Zeilen (L10): 3,185,360
+
+--- Verarbeitung für: 2024-01-11T11-00-00_to_2024-01-15T14-00-00.parquet ---
+  Snapshots im Batch: 177,088
+  Snapshots verworfen (dünn & zensiert): 21,476
+  Snapshots verarbeitet: 155,612
+  Resultierende Zeilen (L10): 3,112,240
+
+--- Verarbeitung für: 2024-01-15T15-00-00_to_2024-01-19T18-00-00.parquet ---
+  Snapshots im Batch: 172,726
+  Snapshots verworfen (dünn & zensiert): 20,982
+  Snapshots verarbeitet: 151,744
+  Resultierende Zeilen (L10): 3,034,880
+
+--- Verarbeitung für: 2024-01-19T19-00-00_to_2024-01-23T22-00-00.parquet ---
+  Snapshots im Batch: 177,068
+  Snapshots verworfen (dünn & zensiert): 20,794
+  Snapshots verarbeitet: 156,274
+  Resultierende Zeilen (L10): 3,125,480
+
+--- Verarbeitung für: 2024-01-23T23-00-00_to_2024-01-28T02-00-00.parquet ---
+  Snapshots im Batch: 177,090
+  Snapshots verworfen (dünn & zensiert): 20,769
+  Snapshots verarbeitet: 156,321
+  Resultierende Zeilen (L10): 3,126,420
+
+--- Verarbeitung für: 2024-01-28T03-00-00_to_2024-02-01T06-00-00.parquet ---
+  Snapshots im Batch: 177,090
+  Snapshots verworfen (dünn & zensiert): 12,585
+  Snapshots verarbeitet: 164,505
+  Resultierende Zeilen (L10): 3,290,100
+
+--- Verarbeitung für: 2024-02-01T07-00-00_to_2024-02-05T10-00-00.parquet ---
+  Snapshots im Batch: 177,089
+  Snapshots verworfen (dünn & zensiert): 17,608
+  Snapshots verarbeitet: 159,481
+  Resultierende Zeilen (L10): 3,189,620
+
+--- Verarbeitung für: 2024-02-05T11-00-00_to_2024-02-09T14-00-00.parquet ---
+  Snapshots im Batch: 177,084
+  Snapshots verworfen (dünn & zensiert): 19,471
+  Snapshots verarbeitet: 157,613
+  Resultierende Zeilen (L10): 3,152,260
+
+--- Verarbeitung für: 2024-02-09T15-00-00_to_2024-02-13T18-00-00.parquet ---
+  Snapshots im Batch: 177,085
+  Snapshots verworfen (dünn & zensiert): 23,503
+  Snapshots verarbeitet: 153,582
+  Resultierende Zeilen (L10): 3,071,640
+
+--- Verarbeitung für: 2024-02-13T19-00-00_to_2024-02-17T22-00-00.parquet ---
+  Snapshots im Batch: 177,092
+  Snapshots verworfen (dünn & zensiert): 21,947
+  Snapshots verarbeitet: 155,145
+  Resultierende Zeilen (L10): 3,102,900
+
+--- Verarbeitung für: 2024-02-17T23-00-00_to_2024-02-22T02-00-00.parquet ---
+  Snapshots im Batch: 177,093
+  Snapshots verworfen (dünn & zensiert): 17,060
+  Snapshots verarbeitet: 160,033
+  Resultierende Zeilen (L10): 3,200,660
+
+--- Verarbeitung für: 2024-02-22T03-00-00_to_2024-02-26T06-00-00.parquet ---
+  Snapshots im Batch: 177,094
+  Snapshots verworfen (dünn & zensiert): 14,403
+  Snapshots verarbeitet: 162,691
+  Resultierende Zeilen (L10): 3,253,820
+
+--- Verarbeitung für: 2024-02-26T07-00-00_to_2024-03-01T10-00-00.parquet ---
+  Snapshots im Batch: 177,081
+  Snapshots verworfen (dünn & zensiert): 15,413
+  Snapshots verarbeitet: 161,668
+  Resultierende Zeilen (L10): 3,233,360
+
+--- Verarbeitung für: 2024-03-01T11-00-00_to_2024-03-05T14-00-00.parquet ---
+  Snapshots im Batch: 177,088
+  Snapshots verworfen (dünn & zensiert): 22,271
+  Snapshots verarbeitet: 154,817
+  Resultierende Zeilen (L10): 3,096,340
+
+--- Verarbeitung für: 2024-03-05T15-00-00_to_2024-03-09T18-00-00.parquet ---
+  Snapshots im Batch: 176,805
+  Snapshots verworfen (dünn & zensiert): 14,180
+  Snapshots verarbeitet: 162,625
+  Resultierende Zeilen (L10): 3,252,500
+
+--- Verarbeitung für: 2024-03-09T19-00-00_to_2024-03-13T22-00-00.parquet ---
+  Snapshots im Batch: 172,985
+  Snapshots verworfen (dünn & zensiert): 13,114
+  Snapshots verarbeitet: 159,871
+  Resultierende Zeilen (L10): 3,197,420
+
+--- Verarbeitung für: 2024-03-13T23-00-00_to_2024-03-18T02-00-00.parquet ---
+  Snapshots im Batch: 177,057
+  Snapshots verworfen (dünn & zensiert): 15,980
+  Snapshots verarbeitet: 161,077
+  Resultierende Zeilen (L10): 3,221,540
+
+--- Verarbeitung für: 2024-03-18T03-00-00_to_2024-03-22T06-00-00.parquet ---
+  Snapshots im Batch: 177,090
+  Snapshots verworfen (dünn & zensiert): 19,234
+  Snapshots verarbeitet: 157,856
+  Resultierende Zeilen (L10): 3,157,120
+
+--- Verarbeitung für: 2024-03-22T07-00-00_to_2024-03-26T10-00-00.parquet ---
+  Snapshots im Batch: 177,089
+  Snapshots verworfen (dünn & zensiert): 17,524
+  Snapshots verarbeitet: 159,565
+  Resultierende Zeilen (L10): 3,191,300
+
+--- Verarbeitung für: 2024-03-26T11-00-00_to_2024-03-30T14-00-00.parquet ---
+  Snapshots im Batch: 177,070
+  Snapshots verworfen (dünn & zensiert): 7,865
+  Snapshots verarbeitet: 169,205
+  Resultierende Zeilen (L10): 3,384,100
+
+--- Verarbeitung für: 2024-03-30T15-00-00_to_2024-04-03T18-00-00.parquet ---
+  Snapshots im Batch: 177,070
+  Snapshots verworfen (dünn & zensiert): 7,581
+  Snapshots verarbeitet: 169,489
+  Resultierende Zeilen (L10): 3,389,780
+
+--- Verarbeitung für: 2024-04-03T19-00-00_to_2024-04-07T22-00-00.parquet ---
+  Snapshots im Batch: 177,076
+  Snapshots verworfen (dünn & zensiert): 8,909
+  Snapshots verarbeitet: 168,167
+  Resultierende Zeilen (L10): 3,363,340
+
+--- Verarbeitung für: 2024-04-07T23-00-00_to_2024-04-12T02-00-00.parquet ---
+  Snapshots im Batch: 177,076
+  Snapshots verworfen (dünn & zensiert): 4,595
+  Snapshots verarbeitet: 172,481
+  Resultierende Zeilen (L10): 3,449,620
+
+--- Verarbeitung für: 2024-04-12T03-00-00_to_2024-04-16T06-00-00.parquet ---
+  Snapshots im Batch: 177,048
+  Snapshots verworfen (dünn & zensiert): 5,574
+  Snapshots verarbeitet: 171,474
+  Resultierende Zeilen (L10): 3,429,480
+
+--- Verarbeitung für: 2024-04-16T07-00-00_to_2024-04-20T10-00-00.parquet ---
+  Snapshots im Batch: 176,301
+  Snapshots verworfen (dünn & zensiert): 9,378
+  Snapshots verarbeitet: 166,923
+  Resultierende Zeilen (L10): 3,338,460
+
+--- Verarbeitung für: 2024-04-20T11-00-00_to_2024-04-24T14-00-00.parquet ---
+  Snapshots im Batch: 173,331
+  Snapshots verworfen (dünn & zensiert): 6,581
+  Snapshots verarbeitet: 166,750
+  Resultierende Zeilen (L10): 3,335,000
+
+--- Verarbeitung für: 2024-04-24T15-00-00_to_2024-04-28T18-00-00.parquet ---
+  Snapshots im Batch: 172,345
+  Snapshots verworfen (dünn & zensiert): 7,428
+  Snapshots verarbeitet: 164,917
+  Resultierende Zeilen (L10): 3,298,340
+
+--- Verarbeitung für: 2024-04-28T19-00-00_to_2024-05-02T22-00-00.parquet ---
+  Snapshots im Batch: 177,011
+  Snapshots verworfen (dünn & zensiert): 7,070
+  Snapshots verarbeitet: 169,941
+  Resultierende Zeilen (L10): 3,398,820
+
+--- Verarbeitung für: 2024-05-02T23-00-00_to_2024-05-07T02-00-00.parquet ---
+  Snapshots im Batch: 177,082
+  Snapshots verworfen (dünn & zensiert): 9,429
+  Snapshots verarbeitet: 167,653
+  Resultierende Zeilen (L10): 3,353,060
+
+--- Verarbeitung für: 2024-05-07T03-00-00_to_2024-05-11T06-00-00.parquet ---
+  Snapshots im Batch: 177,079
+  Snapshots verworfen (dünn & zensiert): 7,747
+  Snapshots verarbeitet: 169,332
+  Resultierende Zeilen (L10): 3,386,640
+
+--- Verarbeitung für: 2024-05-11T07-00-00_to_2024-05-15T10-00-00.parquet ---
+  Snapshots im Batch: 177,076
+  Snapshots verworfen (dünn & zensiert): 6,609
+  Snapshots verarbeitet: 170,467
+  Resultierende Zeilen (L10): 3,409,340
+
+--- Verarbeitung für: 2024-05-15T11-00-00_to_2024-05-19T14-00-00.parquet ---
+  Snapshots im Batch: 177,071
+  Snapshots verworfen (dünn & zensiert): 5,617
+  Snapshots verarbeitet: 171,454
+  Resultierende Zeilen (L10): 3,429,080
+
+--- Verarbeitung für: 2024-05-19T15-00-00_to_2024-05-23T18-00-00.parquet ---
+  Snapshots im Batch: 177,077
+  Snapshots verworfen (dünn & zensiert): 4,296
+  Snapshots verarbeitet: 172,781
+  Resultierende Zeilen (L10): 3,455,620
+
+--- Verarbeitung für: 2024-05-23T19-00-00_to_2024-05-27T22-00-00.parquet ---
+  Snapshots im Batch: 177,096
+  Snapshots verworfen (dünn & zensiert): 5,342
+  Snapshots verarbeitet: 171,754
+  Resultierende Zeilen (L10): 3,435,080
+
+--- Verarbeitung für: 2024-05-27T23-00-00_to_2024-06-01T02-00-00.parquet ---
+  Snapshots im Batch: 174,481
+  Snapshots verworfen (dünn & zensiert): 5,246
+  Snapshots verarbeitet: 169,235
+  Resultierende Zeilen (L10): 3,384,700
+
+--- Verarbeitung für: 2024-06-01T03-00-00_to_2024-06-05T06-00-00.parquet ---
+  Snapshots im Batch: 177,108
+  Snapshots verworfen (dünn & zensiert): 6,601
+  Snapshots verarbeitet: 170,507
+  Resultierende Zeilen (L10): 3,410,140
+
+--- Verarbeitung für: 2024-06-05T07-00-00_to_2024-06-09T10-00-00.parquet ---
+  Snapshots im Batch: 177,094
+  Snapshots verworfen (dünn & zensiert): 3,345
+  Snapshots verarbeitet: 173,749
+  Resultierende Zeilen (L10): 3,474,980
+
+--- Verarbeitung für: 2024-06-09T11-00-00_to_2024-06-13T14-00-00.parquet ---
+  Snapshots im Batch: 175,630
+  Snapshots verworfen (dünn & zensiert): 4,263
+  Snapshots verarbeitet: 171,367
+  Resultierende Zeilen (L10): 3,427,340
+
+--- Verarbeitung für: 2024-06-13T15-00-00_to_2024-06-17T18-00-00.parquet ---
+  Snapshots im Batch: 177,099
+  Snapshots verworfen (dünn & zensiert): 4,515
+  Snapshots verarbeitet: 172,584
+  Resultierende Zeilen (L10): 3,451,680
+
+--- Verarbeitung für: 2024-06-17T19-00-00_to_2024-06-21T22-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 3,113
+  Snapshots verarbeitet: 173,987
+  Resultierende Zeilen (L10): 3,479,740
+
+--- Verarbeitung für: 2024-06-21T23-00-00_to_2024-06-26T02-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 4,469
+  Snapshots verarbeitet: 172,631
+  Resultierende Zeilen (L10): 3,452,620
+
+--- Verarbeitung für: 2024-06-26T03-00-00_to_2024-06-30T06-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 4,032
+  Snapshots verarbeitet: 173,068
+  Resultierende Zeilen (L10): 3,461,360
+
+--- Verarbeitung für: 2024-06-30T07-00-00_to_2024-07-04T10-00-00.parquet ---
+  Snapshots im Batch: 176,927
+  Snapshots verworfen (dünn & zensiert): 5,683
+  Snapshots verarbeitet: 171,244
+  Resultierende Zeilen (L10): 3,424,880
+
+--- Verarbeitung für: 2024-07-04T11-00-00_to_2024-07-08T14-00-00.parquet ---
+  Snapshots im Batch: 177,078
+  Snapshots verworfen (dünn & zensiert): 6,973
+  Snapshots verarbeitet: 170,105
+  Resultierende Zeilen (L10): 3,402,100
+
+--- Verarbeitung für: 2024-07-08T15-00-00_to_2024-07-12T18-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 7,198
+  Snapshots verarbeitet: 169,902
+  Resultierende Zeilen (L10): 3,398,040
+
+--- Verarbeitung für: 2024-07-12T19-00-00_to_2024-07-16T22-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 7,187
+  Snapshots verarbeitet: 169,913
+  Resultierende Zeilen (L10): 3,398,260
+
+--- Verarbeitung für: 2024-07-16T23-00-00_to_2024-07-21T02-00-00.parquet ---
+  Snapshots im Batch: 177,044
+  Snapshots verworfen (dünn & zensiert): 6,347
+  Snapshots verarbeitet: 170,697
+  Resultierende Zeilen (L10): 3,413,940
+
+--- Verarbeitung für: 2024-07-21T03-00-00_to_2024-07-25T06-00-00.parquet ---
+  Snapshots im Batch: 177,102
+  Snapshots verworfen (dünn & zensiert): 4,419
+  Snapshots verarbeitet: 172,683
+  Resultierende Zeilen (L10): 3,453,660
+
+--- Verarbeitung für: 2024-07-25T07-00-00_to_2024-07-29T10-00-00.parquet ---
+  Snapshots im Batch: 177,066
+  Snapshots verworfen (dünn & zensiert): 5,118
+  Snapshots verarbeitet: 171,948
+  Resultierende Zeilen (L10): 3,438,960
+
+--- Verarbeitung für: 2024-07-29T11-00-00_to_2024-08-02T14-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 6,115
+  Snapshots verarbeitet: 170,985
+  Resultierende Zeilen (L10): 3,419,700
+
+--- Verarbeitung für: 2024-08-02T15-00-00_to_2024-08-06T18-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 5,224
+  Snapshots verarbeitet: 171,876
+  Resultierende Zeilen (L10): 3,437,520
+
+--- Verarbeitung für: 2024-08-06T19-00-00_to_2024-08-10T22-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 5,678
+  Snapshots verarbeitet: 171,422
+  Resultierende Zeilen (L10): 3,428,440
+
+--- Verarbeitung für: 2024-08-10T23-00-00_to_2024-08-15T02-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 4,782
+  Snapshots verarbeitet: 172,318
+  Resultierende Zeilen (L10): 3,446,360
+
+--- Verarbeitung für: 2024-08-15T03-00-00_to_2024-08-19T06-00-00.parquet ---
+  Snapshots im Batch: 177,052
+  Snapshots verworfen (dünn & zensiert): 5,555
+  Snapshots verarbeitet: 171,497
+  Resultierende Zeilen (L10): 3,429,940
+
+--- Verarbeitung für: 2024-08-19T07-00-00_to_2024-08-23T10-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 5,505
+  Snapshots verarbeitet: 171,595
+  Resultierende Zeilen (L10): 3,431,900
+
+--- Verarbeitung für: 2024-08-23T11-00-00_to_2024-08-27T14-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 8,293
+  Snapshots verarbeitet: 168,807
+  Resultierende Zeilen (L10): 3,376,140
+
+--- Verarbeitung für: 2024-08-27T15-00-00_to_2024-08-31T18-00-00.parquet ---
+  Snapshots im Batch: 177,089
+  Snapshots verworfen (dünn & zensiert): 8,523
+  Snapshots verarbeitet: 168,566
+  Resultierende Zeilen (L10): 3,371,320
+
+--- Verarbeitung für: 2024-08-31T19-00-00_to_2024-09-04T22-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 9,441
+  Snapshots verarbeitet: 167,659
+  Resultierende Zeilen (L10): 3,353,180
+
+--- Verarbeitung für: 2024-09-04T23-00-00_to_2024-09-09T02-00-00.parquet ---
+  Snapshots im Batch: 177,080
+  Snapshots verworfen (dünn & zensiert): 9,082
+  Snapshots verarbeitet: 167,998
+  Resultierende Zeilen (L10): 3,359,960
+
+--- Verarbeitung für: 2024-09-09T03-00-00_to_2024-09-13T06-00-00.parquet ---
+  Snapshots im Batch: 177,095
+  Snapshots verworfen (dünn & zensiert): 9,050
+  Snapshots verarbeitet: 168,045
+  Resultierende Zeilen (L10): 3,360,900
+
+--- Verarbeitung für: 2024-09-13T07-00-00_to_2024-09-17T10-00-00.parquet ---
+  Snapshots im Batch: 177,096
+  Snapshots verworfen (dünn & zensiert): 6,223
+  Snapshots verarbeitet: 170,873
+  Resultierende Zeilen (L10): 3,417,460
+
+--- Verarbeitung für: 2024-09-17T11-00-00_to_2024-09-21T14-00-00.parquet ---
+  Snapshots im Batch: 177,078
+  Snapshots verworfen (dünn & zensiert): 7,649
+  Snapshots verarbeitet: 169,429
+  Resultierende Zeilen (L10): 3,388,580
+
+--- Verarbeitung für: 2024-09-21T15-00-00_to_2024-09-25T18-00-00.parquet ---
+  Snapshots im Batch: 176,971
+  Snapshots verworfen (dünn & zensiert): 4,436
+  Snapshots verarbeitet: 172,535
+  Resultierende Zeilen (L10): 3,450,700
+
+--- Verarbeitung für: 2024-09-25T19-00-00_to_2024-09-29T22-00-00.parquet ---
+  Snapshots im Batch: 177,100
+  Snapshots verworfen (dünn & zensiert): 16,984
+  Snapshots verarbeitet: 160,116
+  Resultierende Zeilen (L10): 3,202,320
+
+--- Verarbeitung für: 2024-09-29T23-00-00_to_2024-09-30T21-00-00.parquet ---
+  Snapshots im Batch: 40,733
+  Snapshots verworfen (dünn & zensiert): 2,314
+  Snapshots verarbeitet: 38,419
+  Resultierende Zeilen (L10): 768,380
+
+==================================================
+--- FINALE ZUSAMMENFASSUNG DER STRUKTURIERUNG ---
+==================================================
+
+Gesamtzahl verarbeiteter Roh-Zeilen: 950,408,489
+Gesamtzahl resultierender strukturierter Zeilen: 446,895,560
+------------------------------
+Gesamtzahl der Snapshots in Rohdaten: 24,361,782
+Gesamtzahl der verworfenen Snapshots: 2,017,004
+Gesamtzahl der finalen Snapshots: 22,344,778 (91.72%)
+
+--- Prozess abgeschlossen ---
