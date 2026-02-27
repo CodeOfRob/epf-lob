@@ -1,0 +1,713 @@
+==================================================
+--- KONFIGURATION ---
+Startzeitpunkt: 2025-10-10 23:48:14
+Eingabe-Verzeichnis (bereinigte Daten): ../../../data/parquet/03-aggregated-batches
+Ausgabe-Verzeichnis (pivotierte Daten): ../../../data/parquet/04-pivoted-new
+==================================================
+
+Starte Pivotierung von 139 Parquet-Dateien...
+
+--- Verarbeitung für: 2023-02-28T23-00-00_to_2023-03-05T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,343,760 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,188 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-05T03-00-00_to_2023-03-09T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,238,400 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,920 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-09T07-00-00_to_2023-03-13T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,304,740 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 165,237 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-13T11-00-00_to_2023-03-17T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,257,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 162,871 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-17T15-00-00_to_2023-03-21T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,320,300 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 166,015 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-21T19-00-00_to_2023-03-25T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,352,220 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,611 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-25T23-00-00_to_2023-03-30T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,286,060 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 164,303 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-03-30T03-00-00_to_2023-04-03T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,340,400 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,020 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-03T07-00-00_to_2023-04-07T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,347,360 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,368 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-07T11-00-00_to_2023-04-11T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,326,120 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 166,306 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-11T15-00-00_to_2023-04-15T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,181,600 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,080 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-15T19-00-00_to_2023-04-19T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,228,380 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,419 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-19T23-00-00_to_2023-04-24T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,156,060 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,803 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-24T03-00-00_to_2023-04-28T06-00-00.parquet ---
+  Dimensionen (Eingabe): 2,838,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 141,921 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-04-28T07-00-00_to_2023-05-02T10-00-00.parquet ---
+  Dimensionen (Eingabe): 2,811,220 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 140,561 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-02T11-00-00_to_2023-05-06T14-00-00.parquet ---
+  Dimensionen (Eingabe): 2,866,680 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 143,334 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-06T15-00-00_to_2023-05-10T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,334,020 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 166,701 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-10T19-00-00_to_2023-05-14T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,144,700 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,235 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-14T23-00-00_to_2023-05-19T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,043,160 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 152,158 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-19T03-00-00_to_2023-05-23T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,037,180 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 151,859 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-23T07-00-00_to_2023-05-27T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,275,960 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 163,798 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-27T11-00-00_to_2023-05-31T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,077,380 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 153,869 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-05-31T15-00-00_to_2023-06-04T18-00-00.parquet ---
+  Dimensionen (Eingabe): 2,660,780 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 133,039 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-04T19-00-00_to_2023-06-08T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,257,900 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 162,895 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-08T23-00-00_to_2023-06-13T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,134,920 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 156,746 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-13T03-00-00_to_2023-06-17T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,129,800 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 156,490 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-17T07-00-00_to_2023-06-21T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,102,960 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 155,148 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-21T11-00-00_to_2023-06-25T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,147,240 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,362 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-25T15-00-00_to_2023-06-29T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,210,860 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,543 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-06-29T19-00-00_to_2023-07-03T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,256,680 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 162,834 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-07-03T23-00-00_to_2023-07-09T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,230,160 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,508 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-07-09T03-00-00_to_2023-07-15T06-00-00.parquet ---
+  Dimensionen (Eingabe): 2,585,940 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 129,297 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-07-15T07-00-00_to_2023-07-19T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,193,300 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,665 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-07-19T11-00-00_to_2023-07-23T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,089,720 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 154,486 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-07-23T15-00-00_to_2023-07-27T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,077,940 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 153,897 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-07-27T19-00-00_to_2023-08-01T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,046,580 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 152,329 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-01T11-00-00_to_2023-08-05T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,206,340 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,317 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-05T15-00-00_to_2023-08-09T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,155,080 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,754 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-09T19-00-00_to_2023-08-13T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,176,320 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 158,816 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-13T23-00-00_to_2023-08-18T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,205,600 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,280 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-18T03-00-00_to_2023-08-22T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,301,800 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 165,090 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-22T07-00-00_to_2023-08-26T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,185,820 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,291 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-26T11-00-00_to_2023-08-30T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,252,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 162,621 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-08-30T15-00-00_to_2023-09-03T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,185,660 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,283 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-03T19-00-00_to_2023-09-07T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,191,380 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,569 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-07T23-00-00_to_2023-09-12T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,231,540 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,577 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-12T03-00-00_to_2023-09-16T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,214,180 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,709 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-16T07-00-00_to_2023-09-20T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,074,960 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 153,748 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-20T11-00-00_to_2023-09-24T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,114,580 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 155,729 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-24T15-00-00_to_2023-09-28T18-00-00.parquet ---
+  Dimensionen (Eingabe): 2,970,660 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 148,533 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-09-28T19-00-00_to_2023-10-02T22-00-00.parquet ---
+  Dimensionen (Eingabe): 2,865,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 143,271 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-02T23-00-00_to_2023-10-07T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,172,320 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 158,616 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-07T03-00-00_to_2023-10-11T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,206,160 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,308 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-11T07-00-00_to_2023-10-15T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,054,480 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 152,724 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-15T11-00-00_to_2023-10-19T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,298,600 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 164,930 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-19T15-00-00_to_2023-10-23T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,264,060 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 163,203 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-23T19-00-00_to_2023-10-27T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,296,580 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 164,829 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-10-27T23-00-00_to_2023-11-01T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,070,100 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 153,505 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-01T03-00-00_to_2023-11-05T06-00-00.parquet ---
+  Dimensionen (Eingabe): 2,785,820 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 139,291 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-05T07-00-00_to_2023-11-09T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,227,440 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,372 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-09T11-00-00_to_2023-11-13T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,198,680 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,934 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-13T15-00-00_to_2023-11-17T18-00-00.parquet ---
+  Dimensionen (Eingabe): 2,997,480 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 149,874 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-17T19-00-00_to_2023-11-21T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,149,840 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,492 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-21T23-00-00_to_2023-11-26T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,139,920 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 156,996 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-26T03-00-00_to_2023-11-30T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,195,060 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,753 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-11-30T07-00-00_to_2023-12-04T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,137,380 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 156,869 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-04T11-00-00_to_2023-12-08T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,110,160 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 155,508 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-08T15-00-00_to_2023-12-12T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,063,640 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 153,182 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-12T19-00-00_to_2023-12-16T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,038,780 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 151,939 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-16T23-00-00_to_2023-12-21T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,059,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 152,971 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-21T03-00-00_to_2023-12-25T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,143,360 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,168 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-25T07-00-00_to_2023-12-29T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,154,060 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,703 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2023-12-29T11-00-00_to_2024-01-03T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,209,700 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,485 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-03T03-00-00_to_2024-01-07T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,188,520 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,426 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-07T07-00-00_to_2024-01-11T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,185,360 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,268 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-11T11-00-00_to_2024-01-15T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,112,240 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 155,612 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-15T15-00-00_to_2024-01-19T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,034,880 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 151,744 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-19T19-00-00_to_2024-01-23T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,125,480 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 156,274 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-23T23-00-00_to_2024-01-28T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,126,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 156,321 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-01-28T03-00-00_to_2024-02-01T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,290,100 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 164,505 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-01T07-00-00_to_2024-02-05T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,189,620 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,481 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-05T11-00-00_to_2024-02-09T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,152,260 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,613 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-09T15-00-00_to_2024-02-13T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,071,640 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 153,582 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-13T19-00-00_to_2024-02-17T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,102,900 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 155,145 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-17T23-00-00_to_2024-02-22T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,200,660 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,033 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-22T03-00-00_to_2024-02-26T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,253,820 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 162,691 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-02-26T07-00-00_to_2024-03-01T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,233,360 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,668 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-01T11-00-00_to_2024-03-05T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,096,340 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 154,817 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-05T15-00-00_to_2024-03-09T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,252,500 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 162,625 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-09T19-00-00_to_2024-03-13T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,197,420 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,871 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-13T23-00-00_to_2024-03-18T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,221,540 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 161,077 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-18T03-00-00_to_2024-03-22T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,157,120 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 157,856 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-22T07-00-00_to_2024-03-26T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,191,300 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 159,565 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-26T11-00-00_to_2024-03-30T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,384,100 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,205 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-03-30T15-00-00_to_2024-04-03T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,389,780 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,489 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-03T19-00-00_to_2024-04-07T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,363,340 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 168,167 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-07T23-00-00_to_2024-04-12T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,449,620 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,481 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-12T03-00-00_to_2024-04-16T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,429,480 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,474 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-16T07-00-00_to_2024-04-20T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,338,460 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 166,923 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-20T11-00-00_to_2024-04-24T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,335,000 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 166,750 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-24T15-00-00_to_2024-04-28T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,298,340 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 164,917 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-04-28T19-00-00_to_2024-05-02T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,398,820 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,941 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-02T23-00-00_to_2024-05-07T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,353,060 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,653 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-07T03-00-00_to_2024-05-11T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,386,640 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,332 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-11T07-00-00_to_2024-05-15T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,409,340 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 170,467 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-15T11-00-00_to_2024-05-19T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,429,080 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,454 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-19T15-00-00_to_2024-05-23T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,455,620 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,781 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-23T19-00-00_to_2024-05-27T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,435,080 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,754 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-05-27T23-00-00_to_2024-06-01T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,384,700 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,235 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-01T03-00-00_to_2024-06-05T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,410,140 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 170,507 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-05T07-00-00_to_2024-06-09T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,474,980 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 173,749 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-09T11-00-00_to_2024-06-13T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,427,340 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,367 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-13T15-00-00_to_2024-06-17T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,451,680 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,584 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-17T19-00-00_to_2024-06-21T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,479,740 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 173,987 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-21T23-00-00_to_2024-06-26T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,452,620 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,631 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-26T03-00-00_to_2024-06-30T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,461,360 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 173,068 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-06-30T07-00-00_to_2024-07-04T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,424,880 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,244 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-04T11-00-00_to_2024-07-08T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,402,100 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 170,105 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-08T15-00-00_to_2024-07-12T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,398,040 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,902 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-12T19-00-00_to_2024-07-16T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,398,260 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,913 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-16T23-00-00_to_2024-07-21T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,413,940 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 170,697 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-21T03-00-00_to_2024-07-25T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,453,660 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,683 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-25T07-00-00_to_2024-07-29T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,438,960 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,948 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-07-29T11-00-00_to_2024-08-02T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,419,700 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 170,985 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-02T15-00-00_to_2024-08-06T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,437,520 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,876 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-06T19-00-00_to_2024-08-10T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,428,440 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,422 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-10T23-00-00_to_2024-08-15T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,446,360 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,318 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-15T03-00-00_to_2024-08-19T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,429,940 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,497 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-19T07-00-00_to_2024-08-23T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,431,900 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 171,595 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-23T11-00-00_to_2024-08-27T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,376,140 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 168,807 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-27T15-00-00_to_2024-08-31T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,371,320 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 168,566 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-08-31T19-00-00_to_2024-09-04T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,353,180 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,659 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-04T23-00-00_to_2024-09-09T02-00-00.parquet ---
+  Dimensionen (Eingabe): 3,359,960 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 167,998 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-09T03-00-00_to_2024-09-13T06-00-00.parquet ---
+  Dimensionen (Eingabe): 3,360,900 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 168,045 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-13T07-00-00_to_2024-09-17T10-00-00.parquet ---
+  Dimensionen (Eingabe): 3,417,460 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 170,873 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-17T11-00-00_to_2024-09-21T14-00-00.parquet ---
+  Dimensionen (Eingabe): 3,388,580 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 169,429 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-21T15-00-00_to_2024-09-25T18-00-00.parquet ---
+  Dimensionen (Eingabe): 3,450,700 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 172,535 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-25T19-00-00_to_2024-09-29T22-00-00.parquet ---
+  Dimensionen (Eingabe): 3,202,320 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 160,116 Zeilen, 42 Spalten
+------------------------------
+
+--- Verarbeitung für: 2024-09-29T23-00-00_to_2024-09-30T21-00-00.parquet ---
+  Dimensionen (Eingabe): 768,380 Zeilen, 8 Spalten
+  Dimensionen (Ausgabe): 38,419 Zeilen, 42 Spalten
+------------------------------
+
+==================================================
+--- FINALE ZUSAMMENFASSUNG DER PIVOTIERUNG ---
+==================================================
+
+Gesamtzahl der verarbeiteten Zeilen (Long-Format): 446,895,560
+Gesamtzahl der erzeugten Snapshot-Zeilen (Wide-Format): 22,344,778
+Anzahl der Spalten im pivotierten Format: 42
+
+--- Pivotierung abgeschlossen ---
