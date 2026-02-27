@@ -11,9 +11,6 @@ catboost_info/
 *.DS_Store
 .DS_Store
 
-*.png
-*.pdf
-*.csv
 
 
 ### JupyterNotebooks template
