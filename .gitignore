@@ -33,7 +33,6 @@ catboost_info/
 *.joblib
 *.pkl
 *.sav
-*.log
 
 /src/hpo/results/
 
