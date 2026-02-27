@@ -8,6 +8,9 @@ anaconda_projects/
 catboost_info/
 **/cache
 
+*.DS_Store
+.DS_Store
+
 *.png
 *.pdf
 *.csv
