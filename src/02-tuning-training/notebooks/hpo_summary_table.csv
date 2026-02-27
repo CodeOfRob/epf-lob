@@ -1,0 +1,30 @@
+modell;parameter;search space;optimal value
+LASSO_LARGESCALE;alpha;[0.0001, 100.0] (log);0.01267
+LASSO_LARGESCALE;tol;[0.0001, 0.001] (log);0.00080
+EBM;learning_rate;[0.005, 0.1] (log);0.01830
+EBM;interactions;[0, 10];0
+EBM;max_bins;[32, 512];200
+EBM;min_samples_leaf;[1, 50];5
+EBM;outer_bags;[4, 16];5
+EBM;inner_bags;[0, 4];2
+CATBOOSTGPU;iterations;[100, 2000];618
+CATBOOSTGPU;learning_rate;[0.005, 0.5] (log);0.00757
+CATBOOSTGPU;depth;[4, 10];6
+CATBOOSTGPU;l2_leaf_reg;[1e-08, 10.0] (log);0.00288
+CATBOOSTGPU;border_count;[32, 128];43
+CATBOOSTGPU;random_strength;[1e-08, 10.0] (log);0.00343
+CATBOOSTGPU;subsample;[0.1, 1.0];0.13115
+CATBOOSTGPU;min_data_in_leaf;[1, 100];98
+RANDOMFOREST;n_estimators;[100, 1000];267
+RANDOMFOREST;max_depth;[5, 35];10
+RANDOMFOREST;min_samples_split;[2, 50];45
+RANDOMFOREST;min_samples_leaf;[1, 20];15
+RANDOMFOREST;max_features;('sqrt', 'log2', None);log2
+MLP;n_layers;[1, 3];3
+MLP;n_units_l0;[16, 128];20
+MLP;n_units_l1;[16, 128];55
+MLP;n_units_l2;[16, 128];100
+MLP;activation;('relu', 'tanh');relu
+MLP;alpha;[1e-06, 0.1] (log);0.09975
+MLP;learning_rate_init;[0.0001, 0.01] (log);0.00989
+MLP;batch_size;(64, 128, 256, 512);64
