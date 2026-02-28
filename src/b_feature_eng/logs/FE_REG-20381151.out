@@ -1,0 +1,205 @@
+Job gestartet am Tue Feb 10 02:45:16 PM CET 2026
+Job laeuft auf Knoten: paula03
+Module nach 'purge' geladen:
+Module nach 'load' geladen:
+Conda-Umgebung 'Masterarbeit' aktiviert.
+Verwende Python-Version: /home/sc.uni-leipzig.de/to65jevo/.conda/envs/Masterarbeit/bin/python
+Starte Python-Skript zur Feature Creation...
+### Calculating mid price returns... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Mid price calculated.
+Calc past returns for mid_price:   0%|          | 0/4 [00:00<?, ?it/s]
+Past mid price differences calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/mid_price_returns.parquet` with columns: ['mid_price_return_prev_1min', 'mid_price_return_prev_5min', 'mid_price_return_prev_15min', 'mid_price_return_prev_30min']
+Mid price return features saved in mid_price_returns.parquet
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating weighted mid price returns... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Weighted mid price calculated.
+Calc past returns for weighted_mid_price:   0%|          | 0/4 [00:00<?, ?it/s]
+Past weighted mid price differences calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/weighted_mid_price_returns.parquet` with columns: ['weighted_mid_price_return_prev_1min', 'weighted_mid_price_return_prev_5min', 'weighted_mid_price_return_prev_15min', 'weighted_mid_price_return_prev_30min']
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating MP-WMP return differences... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Mid price and Weighted mid price calculated.
+Calc past returns for mid_price:   0%|          | 0/4 [00:00<?, ?it/s]
+Calc past returns for weighted_mid_price:   0%|          | 0/4 [00:00<?, ?it/s]
+Past mid price and weighted mid price differences calculated.
+Calculated difference for horizon 1min.
+Calculated difference for horizon 5min.
+Calculated difference for horizon 15min.
+Calculated difference for horizon 30min.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/mp_wmp_return_differences.parquet` with columns: ['mp_wmp_return_diff_prev_1min', 'mp_wmp_return_diff_prev_5min', 'mp_wmp_return_diff_prev_15min', 'mp_wmp_return_diff_prev_30min']
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating mid price realized volatility... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Mid price calculated.
+Calc past returns for mid_price:   0%|          | 0/1 [00:00<?, ?it/s]
+Past mid price differences calculated.
+Creating time-based realized volatility for mid_price_return_prev_5min:   0%|          | 0/4 [00:00<?, ?it/s]
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/mid_price_realized_volatility.parquet` with columns: ['mid_price_return_prev_5min_RV_60s', 'mid_price_return_prev_5min_RV_300s', 'mid_price_return_prev_5min_RV_900s', 'mid_price_return_prev_5min_RV_1800s']
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating bid-ask spread features... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Bid-ask spread calculated.
+Creating time-based rolling means for bid_ask_spread:   0%|          | 0/6 [00:00<?, ?it/s]
+Bid-ask spread rolling means calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/bid_ask_spread.parquet` with columns: ['bid_ask_spread', 'bid_ask_spread_MA_30s', 'bid_ask_spread_MA_60s', 'bid_ask_spread_MA_180s', 'bid_ask_spread_MA_300s', 'bid_ask_spread_MA_900s', 'bid_ask_spread_MA_1800s']
+PLOTS disabled in config.
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating liquidity at best level features... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Liquidity at best level per side calculated.
+Liquidity imbalance calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/liquidity_best_level.parquet` with columns: ['liquidity_best_ask', 'liquidity_best_bid', 'liquidity_imbalance']
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating orderbook depth features... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Orderbook depth per side calculated.
+Creating time-based rolling means for orderbook_depth_ask:   0%|          | 0/6 [00:00<?, ?it/s]
+Creating time-based rolling means for orderbook_depth_bid:   0%|          | 0/6 [00:00<?, ?it/s]
+Orderbook depth rolling means calculated.
+Orderbook depth imbalance calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/orderbook_depth.parquet` with columns: ['orderbook_depth_ask', 'orderbook_depth_bid', 'orderbook_depth_imbalance', 'orderbook_depth_ask_MA_30s', 'orderbook_depth_ask_MA_60s', 'orderbook_depth_ask_MA_180s', 'orderbook_depth_ask_MA_300s', 'orderbook_depth_ask_MA_900s', 'orderbook_depth_ask_MA_1800s', 'orderbook_depth_bid_MA_30s', 'orderbook_depth_bid_MA_60s', 'orderbook_depth_bid_MA_180s', 'orderbook_depth_bid_MA_300s', 'orderbook_depth_bid_MA_900s', 'orderbook_depth_bid_MA_1800s']
+PLOTS disabled in config.
+PLOTS disabled in config.
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating orderbook slope features... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+  -> Calculating Ask Slope (Weighted Index)...
+  -> Calculating Bid Slope (Weighted Index)...
+Orderbook slope elastic calculated.
+Creating time-based rolling means for orderbook_slope_ask:   0%|          | 0/6 [00:00<?, ?it/s]
+Creating time-based rolling means for orderbook_slope_bid:   0%|          | 0/6 [00:00<?, ?it/s]
+Orderbook slope moving averages calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/orderbook_slope.parquet` with columns: ['orderbook_slope_ask', 'orderbook_slope_bid', 'orderbook_slope_ask_MA_30s', 'orderbook_slope_ask_MA_60s', 'orderbook_slope_ask_MA_180s', 'orderbook_slope_ask_MA_300s', 'orderbook_slope_ask_MA_900s', 'orderbook_slope_ask_MA_1800s', 'orderbook_slope_bid_MA_30s', 'orderbook_slope_bid_MA_60s', 'orderbook_slope_bid_MA_180s', 'orderbook_slope_bid_MA_300s', 'orderbook_slope_bid_MA_900s', 'orderbook_slope_bid_MA_1800s']
+PLOTS disabled in config.
+PLOTS disabled in config.
+### Calculating temporal context features... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Temporal context features calculated.
+Product nature features calculated.
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/temporal_context.parquet` with columns: ['te_hour_of_day_sin', 'te_hour_of_day_cos', 'te_day_of_week_sin', 'te_day_of_week_cos', 'te_day_of_year_sin', 'te_day_of_year_cos', 'te_is_sidc_active', 'te_min_to_delivery', 'te_min_to_next_quarter_hour', 'te_min_to_next_hour', 'pn_hour_of_day_sin', 'pn_hour_of_day_cos', 'pn_day_of_week_sin', 'pn_day_of_week_cos', 'pn_day_of_year_sin', 'pn_day_of_year_cos', 'pn_is_peak_hour']
+### Calculating bid-ask spread spillover diff... ###
+Bid-ask spread diff to previous delivery hour calculated.
+### Calculating orderbook depth spillover diff... ###
+Orderbook depth diffs to previous delivery hour calculated.
+### Calculating orderbook slope spillover diff... ###
+Orderbook slope diffs to previous delivery hour calculated.
+### Merging and saving spillover diff features... ###
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/spillover_diffs.parquet` with columns: ['bid_ask_spread_diff_-1h', 'orderbook_depth_bid_diff_-1h', 'orderbook_depth_ask_diff_-1h', 'orderbook_slope_bid_diff_-1h', 'orderbook_slope_ask_diff_-1h']
+### Calculating 5min price movement label... ###
+loading parquet files:   0%|          | 0/139 [00:00<?, ?it/s]
+Mid price calculated.
+Calc future returns for mid_price:   0%|          | 0/1 [00:00<?, ?it/s]
+Mid price returns for label horizon calculated.
+Using regression label per config, generating vola nomalized returns
+Saving features with strategy: SavingStrategy.DEDICATED
+Saved new features to `/home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/separate/label_5min_return.parquet` with columns: ['label_5min']
+Merging 11 files using Polars...
+Executing streaming join and saving to disk (this may take a while)...
+✅ Success! Saved to /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/merged/all_features_merged.parquet
+Original merged data shape: (22344778, 80)
+NaN counts per column in merged features:
+bid_ask_spread_MA_60s                    303331
+bid_ask_spread_MA_180s                   500530
+bid_ask_spread_MA_300s                   581465
+bid_ask_spread_MA_900s                   894358
+bid_ask_spread_MA_1800s                 1429608
+label_5min                               508754
+mid_price_return_prev_5min_RV_60s        763836
+mid_price_return_prev_5min_RV_300s      1034655
+mid_price_return_prev_5min_RV_900s      1349026
+mid_price_return_prev_5min_RV_1800s     1886028
+bid_ask_spread_diff_-1h                   10019
+orderbook_depth_bid_diff_-1h              10019
+orderbook_depth_ask_diff_-1h              10019
+orderbook_slope_bid_diff_-1h              10019
+orderbook_slope_ask_diff_-1h              10019
+mp_wmp_return_diff_prev_1min             167599
+mp_wmp_return_diff_prev_5min             471823
+mp_wmp_return_diff_prev_15min           1224720
+mp_wmp_return_diff_prev_30min           2351859
+mid_price_return_prev_1min               167599
+mid_price_return_prev_5min               471823
+mid_price_return_prev_15min             1224720
+mid_price_return_prev_30min             2351859
+liquidity_best_ask                        54973
+liquidity_best_bid                        31993
+weighted_mid_price_return_prev_1min       77165
+weighted_mid_price_return_prev_5min      376541
+weighted_mid_price_return_prev_15min    1123080
+weighted_mid_price_return_prev_30min    2244545
+orderbook_slope_ask                       58779
+orderbook_slope_bid                       34665
+orderbook_slope_ask_MA_30s                57317
+orderbook_slope_ask_MA_60s               359350
+orderbook_slope_ask_MA_180s              554981
+orderbook_slope_ask_MA_300s              635271
+orderbook_slope_ask_MA_900s              947562
+orderbook_slope_ask_MA_1800s            1482773
+orderbook_slope_bid_MA_30s                33212
+orderbook_slope_bid_MA_60s               335648
+orderbook_slope_bid_MA_180s              531506
+orderbook_slope_bid_MA_300s              612137
+orderbook_slope_bid_MA_900s              924757
+orderbook_slope_bid_MA_1800s            1459950
+orderbook_depth_ask                      202407
+orderbook_depth_bid                      182451
+orderbook_depth_ask_MA_30s               151003
+orderbook_depth_ask_MA_60s               457686
+orderbook_depth_ask_MA_180s              633237
+orderbook_depth_ask_MA_300s              705400
+orderbook_depth_ask_MA_900s              995952
+orderbook_depth_ask_MA_1800s            1514876
+orderbook_depth_bid_MA_30s               128164
+orderbook_depth_bid_MA_60s               434792
+orderbook_depth_bid_MA_180s              607971
+orderbook_depth_bid_MA_300s              679974
+orderbook_depth_bid_MA_900s              969708
+orderbook_depth_bid_MA_1800s            1491362
+dtype: int64
+Rows without any NaNs: 18588005 / 22344778 (83.19%)
+Data shape without NA: (18588005, 80)
+Clipping TTD window to range: 30 - 300 minutes
+Rows to be clipped based on TTD min: 1550634 / 18588005 (8.34%)
+Rows to be clipped based on TTD max: 0 / 18588005 (0.00%)
+Data shape after clipping TTD window: (17037371, 80)
+Cleaned data saved.
+### Splitting data into train, validation and test sets by product... ###
+Data shape: (17037371, 80)
+Train shape: (11483576, 80) = 67.40% of total
+Validation shape: (3705910, 80) = 21.75% of total
+Test shape: (1847885, 80) = 10.85% of total
+Saved train set to: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/train.parquet
+Saved validation set to: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/val.parquet
+Saved test set to: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/test.parquet
+Fitting scaler...
+Scaler fitted.
+Scaler saved to /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/scaler/scaler.joblib
+scale and saving split: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/train.parquet
+Saved sacled split to: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/train.parquet
+scale and saving split: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/val.parquet
+Saved sacled split to: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/val.parquet
+scale and saving split: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/test.parquet
+Saved sacled split to: /home/sc.uni-leipzig.de/to65jevo/epf-with-ml-on-orderbooks/data/parquet/features/asinh1-reg-clipped/splits/test.parquet
+Python-Skript beendet mit Exit-Code 0
+Job beendet am Tue Feb 10 02:57:32 PM CET 2026
